@@ -1,0 +1,210 @@
+  INFO root [2024-10-06 12:17:39,949] - 
+  INFO root [2024-10-06 12:17:39,949] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2024-10-06 12:17:39,949] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [2024-10-06 12:17:39,949] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [2024-10-06 12:17:39,949] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2024-10-06 12:17:39,966] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.43.253 ( 192.168.43.253:50247 )
+  INFO root [2024-10-06 12:17:39,966] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.43.253:50247, SOMAXCONN=511.
+  INFO root [2024-10-06 12:17:39,966] - ---- tool Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: EB8AE9F114C8797B1E70E1A629686A27. Config: Debug X64. Built: 12:42:42 Oct  4 2024. AppID: 18446744073709551615. UID: 13419. PID: 11292 ----
+  INFO root [2024-10-06 12:17:39,966] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [2024-10-06 12:17:39,966] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2024-10-06 12:17:39,966] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2024-10-06 12:17:40,157] - Script::install(): is successfully, Python=(3.7.3 (default, Oct  4 2024, 12:41:09) [MSC v.1941 64 bit (AMD64)])!
+  INFO root [2024-10-06 12:17:40,157] - Script::install(): KBExtra is successfully!
+ DEBUG root [2024-10-06 12:17:40,886] - ClientSDK::writeServerErrorDescrsModule(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins//ServerErrorDescrs.cs
+ DEBUG root [2024-10-06 12:17:40,886] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/ServerErrorDescrs.cs
+ DEBUG root [2024-10-06 12:17:40,886] - ClientSDK::writeEngineMessagesModule(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins//Messages.cs
+ DEBUG root [2024-10-06 12:17:40,886] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/Messages.cs
+ DEBUG root [2024-10-06 12:17:40,886] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/KBETypes.cs
+ DEBUG root [2024-10-06 12:17:40,886] - ClientSDK::writeEntityDefsModule(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins//EntityDef.cs
+ DEBUG root [2024-10-06 12:17:40,902] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/EntityDef.cs
+ DEBUG root [2024-10-06 12:17:40,902] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/CustomDataTypes.cs
+ DEBUG root [2024-10-06 12:17:40,902] - ClientSDK::writeEntityModule(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins//Account
+ DEBUG root [2024-10-06 12:17:40,902] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/AccountBase.cs
+ DEBUG root [2024-10-06 12:17:40,902] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/EntityCallAccountBase.cs
+ DEBUG root [2024-10-06 12:17:40,902] - ClientSDK::writeEntityModule(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins//FirstEntity
+ DEBUG root [2024-10-06 12:17:40,902] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/FirstEntityBase.cs
+ DEBUG root [2024-10-06 12:17:40,902] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/EntityCallFirstEntityBase.cs
+ DEBUG root [2024-10-06 12:17:40,902] - ClientSDK::writeEntityModule(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins//FirstSpace
+ DEBUG root [2024-10-06 12:17:40,902] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/FirstSpaceBase.cs
+ DEBUG root [2024-10-06 12:17:40,902] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/EntityCallFirstSpaceBase.cs
+  INFO root [2024-10-06 12:17:40,918] - Script::uninstall(): is successfully!
+ DEBUG root [2024-10-06 12:17:40,918] - ThreadPool::destroy(): starting size 2.
+  WARN root [2024-10-06 12:17:41,237] - ThreadPool::destroy(): waiting for thread(2)[0x18461935b30,0x18461935bd0,], try=1
+ DEBUG root [2024-10-06 12:17:41,663] - TPThread::~TPThread(): 0x18461935b30
+ DEBUG root [2024-10-06 12:17:41,663] - TPThread::~TPThread(): 0x18461935bd0
+ DEBUG root [2024-10-06 12:17:41,663] - ThreadPool::destroy(): successfully!
+ DEBUG root [2024-10-06 12:17:41,663] - Bundle::destroyObjPool(): size 13.
+ DEBUG root [2024-10-06 12:17:41,663] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2024-10-06 12:17:41,663] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2024-10-06 12:17:41,663] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2024-10-06 12:17:41,663] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2024-10-06 12:17:41,663] - Address::destroyObjPool(): size 0.
+ DEBUG root [2024-10-06 12:17:41,663] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2024-10-06 12:17:41,663] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2024-10-06 12:17:41,663] - tool(18446744073709551615) has shut down. ClientSDK=true
+  INFO root [2024-10-06 12:17:42,684] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2024-10-06 12:20:25,807] - 
+  INFO root [2024-10-06 12:20:25,807] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2024-10-06 12:20:25,807] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [2024-10-06 12:20:25,807] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [2024-10-06 12:20:25,807] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2024-10-06 12:20:25,807] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.43.253 ( 192.168.43.253:50250 )
+  INFO root [2024-10-06 12:20:25,822] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.43.253:50250, SOMAXCONN=511.
+  INFO root [2024-10-06 12:20:25,822] - ---- tool Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: EB8AE9F114C8797B1E70E1A629686A27. Config: Debug X64. Built: 12:42:42 Oct  4 2024. AppID: 18446744073709551615. UID: 13419. PID: 4160 ----
+  INFO root [2024-10-06 12:20:25,822] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [2024-10-06 12:20:25,822] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2024-10-06 12:20:25,822] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2024-10-06 12:20:25,983] - Script::install(): is successfully, Python=(3.7.3 (default, Oct  4 2024, 12:41:09) [MSC v.1941 64 bit (AMD64)])!
+  INFO root [2024-10-06 12:20:25,983] - Script::install(): KBExtra is successfully!
+ ERROR root [2024-10-06 12:20:26,222] - creatDir(): KBE_MKDIR [\/192.168.43.1] error! iRet=-1
+ ERROR root [2024-10-06 12:20:26,222] - ClientSDK::copyPluginsSourceToPath(): creating directory error! path=\\192.168.43.1/Plugins/kbengine_unity3d_plugins
+  INFO root [2024-10-06 12:20:26,222] - Script::uninstall(): is successfully!
+ DEBUG root [2024-10-06 12:20:26,222] - ThreadPool::destroy(): starting size 2.
+  WARN root [2024-10-06 12:20:26,547] - ThreadPool::destroy(): waiting for thread(2)[0x1b1bfa02750,0x1b1bfa030b0,], try=1
+ DEBUG root [2024-10-06 12:20:26,962] - TPThread::~TPThread(): 0x1b1bfa02750
+ DEBUG root [2024-10-06 12:20:26,962] - TPThread::~TPThread(): 0x1b1bfa030b0
+ DEBUG root [2024-10-06 12:20:26,962] - ThreadPool::destroy(): successfully!
+ DEBUG root [2024-10-06 12:20:26,962] - Bundle::destroyObjPool(): size 12.
+ DEBUG root [2024-10-06 12:20:26,962] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2024-10-06 12:20:26,962] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2024-10-06 12:20:26,962] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2024-10-06 12:20:26,962] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2024-10-06 12:20:26,962] - Address::destroyObjPool(): size 0.
+ DEBUG root [2024-10-06 12:20:26,962] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2024-10-06 12:20:26,962] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2024-10-06 12:20:26,962] - tool(18446744073709551615) has shut down. ClientSDK=true
+  INFO root [2024-10-06 12:20:27,972] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2024-10-06 12:21:13,142] - 
+  INFO root [2024-10-06 12:21:13,142] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2024-10-06 12:21:13,144] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [2024-10-06 12:21:13,144] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [2024-10-06 12:21:13,144] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2024-10-06 12:21:13,144] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.43.253 ( 192.168.43.253:50251 )
+  INFO root [2024-10-06 12:21:13,144] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.43.253:50251, SOMAXCONN=511.
+  INFO root [2024-10-06 12:21:13,160] - ---- tool Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: EB8AE9F114C8797B1E70E1A629686A27. Config: Debug X64. Built: 12:42:42 Oct  4 2024. AppID: 18446744073709551615. UID: 13419. PID: 1004 ----
+  INFO root [2024-10-06 12:21:13,160] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [2024-10-06 12:21:13,160] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2024-10-06 12:21:13,160] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2024-10-06 12:21:13,336] - Script::install(): is successfully, Python=(3.7.3 (default, Oct  4 2024, 12:41:09) [MSC v.1941 64 bit (AMD64)])!
+  INFO root [2024-10-06 12:21:13,336] - Script::install(): KBExtra is successfully!
+ ERROR root [2024-10-06 12:21:13,563] - creatDir(): KBE_MKDIR [//192.168.43.1] error! iRet=-1
+ ERROR root [2024-10-06 12:21:13,563] - ClientSDK::copyPluginsSourceToPath(): creating directory error! path=//192.168.43.1/Plugins/kbengine_unity3d_plugins
+  INFO root [2024-10-06 12:21:13,580] - Script::uninstall(): is successfully!
+ DEBUG root [2024-10-06 12:21:13,580] - ThreadPool::destroy(): starting size 2.
+  WARN root [2024-10-06 12:21:13,900] - ThreadPool::destroy(): waiting for thread(2)[0x1e830317c50,0x1e830317ed0,], try=1
+ DEBUG root [2024-10-06 12:21:14,318] - TPThread::~TPThread(): 0x1e830317c50
+ DEBUG root [2024-10-06 12:21:14,318] - TPThread::~TPThread(): 0x1e830317ed0
+ DEBUG root [2024-10-06 12:21:14,318] - ThreadPool::destroy(): successfully!
+ DEBUG root [2024-10-06 12:21:14,318] - Bundle::destroyObjPool(): size 12.
+ DEBUG root [2024-10-06 12:21:14,318] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2024-10-06 12:21:14,318] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2024-10-06 12:21:14,318] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2024-10-06 12:21:14,318] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2024-10-06 12:21:14,318] - Address::destroyObjPool(): size 0.
+ DEBUG root [2024-10-06 12:21:14,318] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2024-10-06 12:21:14,318] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2024-10-06 12:21:14,318] - tool(18446744073709551615) has shut down. ClientSDK=true
+  INFO root [2024-10-06 12:21:15,327] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2024-10-06 12:21:50,554] - 
+  INFO root [2024-10-06 12:21:50,570] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2024-10-06 12:21:50,570] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [2024-10-06 12:21:50,570] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [2024-10-06 12:21:50,570] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2024-10-06 12:21:50,570] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.43.253 ( 192.168.43.253:50252 )
+  INFO root [2024-10-06 12:21:50,570] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.43.253:50252, SOMAXCONN=511.
+  INFO root [2024-10-06 12:21:50,586] - ---- tool Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: EB8AE9F114C8797B1E70E1A629686A27. Config: Debug X64. Built: 12:42:42 Oct  4 2024. AppID: 18446744073709551615. UID: 13419. PID: 11068 ----
+  INFO root [2024-10-06 12:21:50,586] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [2024-10-06 12:21:50,586] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2024-10-06 12:21:50,586] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2024-10-06 12:21:50,748] - Script::install(): is successfully, Python=(3.7.3 (default, Oct  4 2024, 12:41:09) [MSC v.1941 64 bit (AMD64)])!
+  INFO root [2024-10-06 12:21:50,748] - Script::install(): KBExtra is successfully!
+ DEBUG root [2024-10-06 12:21:51,033] - ClientSDK::writeServerErrorDescrsModule(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins//ServerErrorDescrs.cs
+ DEBUG root [2024-10-06 12:21:51,050] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/ServerErrorDescrs.cs
+ DEBUG root [2024-10-06 12:21:51,050] - ClientSDK::writeEngineMessagesModule(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins//Messages.cs
+ DEBUG root [2024-10-06 12:21:51,050] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/Messages.cs
+ DEBUG root [2024-10-06 12:21:51,050] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/KBETypes.cs
+ DEBUG root [2024-10-06 12:21:51,050] - ClientSDK::writeEntityDefsModule(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins//EntityDef.cs
+ DEBUG root [2024-10-06 12:21:51,050] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/EntityDef.cs
+ DEBUG root [2024-10-06 12:21:51,065] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/CustomDataTypes.cs
+ DEBUG root [2024-10-06 12:21:51,065] - ClientSDK::writeEntityModule(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins//Account
+ DEBUG root [2024-10-06 12:21:51,065] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/AccountBase.cs
+ DEBUG root [2024-10-06 12:21:51,065] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/EntityCallAccountBase.cs
+ DEBUG root [2024-10-06 12:21:51,065] - ClientSDK::writeEntityModule(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins//FirstEntity
+ DEBUG root [2024-10-06 12:21:51,065] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/FirstEntityBase.cs
+ DEBUG root [2024-10-06 12:21:51,065] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/EntityCallFirstEntityBase.cs
+ DEBUG root [2024-10-06 12:21:51,065] - ClientSDK::writeEntityModule(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins//FirstSpace
+ DEBUG root [2024-10-06 12:21:51,065] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/FirstSpaceBase.cs
+ DEBUG root [2024-10-06 12:21:51,065] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/EntityCallFirstSpaceBase.cs
+  INFO root [2024-10-06 12:21:51,081] - Script::uninstall(): is successfully!
+ DEBUG root [2024-10-06 12:21:51,081] - ThreadPool::destroy(): starting size 2.
+  WARN root [2024-10-06 12:21:51,386] - ThreadPool::destroy(): waiting for thread(2)[0x1290da64b80,0x1290da63a00,], try=1
+ DEBUG root [2024-10-06 12:21:51,818] - TPThread::~TPThread(): 0x1290da64b80
+ DEBUG root [2024-10-06 12:21:51,818] - TPThread::~TPThread(): 0x1290da63a00
+ DEBUG root [2024-10-06 12:21:51,818] - ThreadPool::destroy(): successfully!
+ DEBUG root [2024-10-06 12:21:51,818] - Bundle::destroyObjPool(): size 13.
+ DEBUG root [2024-10-06 12:21:51,818] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2024-10-06 12:21:51,818] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2024-10-06 12:21:51,818] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2024-10-06 12:21:51,818] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2024-10-06 12:21:51,818] - Address::destroyObjPool(): size 0.
+ DEBUG root [2024-10-06 12:21:51,818] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2024-10-06 12:21:51,818] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2024-10-06 12:21:51,818] - tool(18446744073709551615) has shut down. ClientSDK=true
+  INFO root [2024-10-06 12:21:52,834] - EventDispatcher()::~EventDispatcher: Num timers = 2
+  INFO root [2024-10-07 12:15:35,629] - 
+  INFO root [2024-10-07 12:15:35,629] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2024-10-07 12:15:35,629] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [2024-10-07 12:15:35,629] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [2024-10-07 12:15:35,629] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2024-10-07 12:15:35,645] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.150.131 ( 192.168.150.131:54064 )
+  INFO root [2024-10-07 12:15:35,645] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.150.131:54064, SOMAXCONN=511.
+  INFO root [2024-10-07 12:15:35,645] - ---- tool Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: EB8AE9F114C8797B1E70E1A629686A27. Config: Debug X64. Built: 12:42:42 Oct  4 2024. AppID: 18446744073709551615. UID: 13419. PID: 9884 ----
+  INFO root [2024-10-07 12:15:35,645] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [2024-10-07 12:15:35,645] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2024-10-07 12:15:35,645] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2024-10-07 12:15:35,838] - Script::install(): is successfully, Python=(3.7.3 (default, Oct  4 2024, 12:41:09) [MSC v.1941 64 bit (AMD64)])!
+  INFO root [2024-10-07 12:15:35,838] - Script::install(): KBExtra is successfully!
+ DEBUG root [2024-10-07 12:15:36,836] - ClientSDK::writeServerErrorDescrsModule(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins//ServerErrorDescrs.cs
+ DEBUG root [2024-10-07 12:15:36,836] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/ServerErrorDescrs.cs
+ DEBUG root [2024-10-07 12:15:36,836] - ClientSDK::writeEngineMessagesModule(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins//Messages.cs
+ DEBUG root [2024-10-07 12:15:36,852] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/Messages.cs
+ DEBUG root [2024-10-07 12:15:36,852] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/KBETypes.cs
+ DEBUG root [2024-10-07 12:15:36,852] - ClientSDK::writeEntityDefsModule(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins//EntityDef.cs
+ DEBUG root [2024-10-07 12:15:36,852] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/EntityDef.cs
+ DEBUG root [2024-10-07 12:15:36,852] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/CustomDataTypes.cs
+ DEBUG root [2024-10-07 12:15:36,869] - ClientSDK::writeEntityModule(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins//Account
+ DEBUG root [2024-10-07 12:15:36,869] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/AccountBase.cs
+ DEBUG root [2024-10-07 12:15:36,869] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/EntityCallAccountBase.cs
+ DEBUG root [2024-10-07 12:15:36,869] - ClientSDK::writeEntityModule(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins//FirstEntity
+ DEBUG root [2024-10-07 12:15:36,869] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/FirstEntityBase.cs
+ DEBUG root [2024-10-07 12:15:36,869] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/EntityCallFirstEntityBase.cs
+ DEBUG root [2024-10-07 12:15:36,869] - ClientSDK::writeEntityModule(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins//FirstSpace
+ DEBUG root [2024-10-07 12:15:36,869] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/FirstSpaceBase.cs
+ DEBUG root [2024-10-07 12:15:36,886] - ClientSDK::saveFile(): C:\tut\kbengine-2.5.12\getstarted_assets\/kbengine_unity3d_plugins/EntityCallFirstSpaceBase.cs
+  INFO root [2024-10-07 12:15:36,904] - Script::uninstall(): is successfully!
+ DEBUG root [2024-10-07 12:15:36,904] - ThreadPool::destroy(): starting size 2.
+  WARN root [2024-10-07 12:15:37,206] - ThreadPool::destroy(): waiting for thread(2)[0x1986f006d80,0x1986f006100,], try=1
+ DEBUG root [2024-10-07 12:15:37,635] - TPThread::~TPThread(): 0x1986f006d80
+ DEBUG root [2024-10-07 12:15:37,635] - TPThread::~TPThread(): 0x1986f006100
+ DEBUG root [2024-10-07 12:15:37,635] - ThreadPool::destroy(): successfully!
+ DEBUG root [2024-10-07 12:15:37,650] - Bundle::destroyObjPool(): size 13.
+ DEBUG root [2024-10-07 12:15:37,650] - Channel::destroyObjPool(): size 0.
+ DEBUG root [2024-10-07 12:15:37,650] - TCPPacket::destroyObjPool(): size 0.
+ DEBUG root [2024-10-07 12:15:37,650] - UDPPacket::destroyObjPool(): size 0.
+ DEBUG root [2024-10-07 12:15:37,650] - EndPoint::destroyObjPool(): size 0.
+ DEBUG root [2024-10-07 12:15:37,650] - Address::destroyObjPool(): size 0.
+ DEBUG root [2024-10-07 12:15:37,650] - TCPPacketReceiver::destroyObjPool(): size 0.
+ DEBUG root [2024-10-07 12:15:37,650] - UDPPacketReceiver::destroyObjPool(): size 0.
+  INFO root [2024-10-07 12:15:37,650] - tool(18446744073709551615) has shut down. ClientSDK=true
+  INFO root [2024-10-07 12:15:38,664] - EventDispatcher()::~EventDispatcher: Num timers = 2

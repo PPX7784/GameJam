@@ -1,0 +1,334 @@
+  INFO root [0x000011a4] [2024-10-06 10:31:29,526] - 
+  INFO root [0x000011a4] [2024-10-06 10:31:29,526] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000011a4] [2024-10-06 10:31:29,526] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [0x000011a4] [2024-10-06 10:31:29,526] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/server_assets/;C:/tut/kbengine-2.5.12/server_assets/scripts/;C:/tut/kbengine-2.5.12/server_assets/res/
+  INFO root [0x000011a4] [2024-10-06 10:31:29,526] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [0x000011a4] [2024-10-06 10:31:29,532] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.43.253 ( 192.168.43.253:50845 )
+  INFO root [0x000011a4] [2024-10-06 10:31:29,532] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.43.253:50845, SOMAXCONN=511.
+  INFO root [0x000011a4] [2024-10-06 10:31:29,532] - server-configs:
+  INFO root [0x000011a4] [2024-10-06 10:31:29,532] - 	gameUpdateHertz : 10
+  INFO root [0x000011a4] [2024-10-06 10:31:29,532] - 	defaultViewRadius : 80
+  INFO root [0x000011a4] [2024-10-06 10:31:29,532] - 	defaultViewHysteresisArea : 5
+  INFO root [0x000011a4] [2024-10-06 10:31:29,532] - 	entryScriptFile : kbemain
+  INFO root [0x000011a4] [2024-10-06 10:31:29,532] - 	internalTcpAddr : 192.168.43.253:50845
+  INFO root [0x000011a4] [2024-10-06 10:31:29,532] - 	componentID : 8001
+  INFO root [0x000011a4] [2024-10-06 10:31:29,613] - Components::findLogger: found logger, addr:192.168.43.253:50834
+  INFO root [0x000011a4] [2024-10-06 10:31:29,613] - Components::addComponent: reset orderLog, uid=13419!
+  INFO root [0x000011a4] [2024-10-06 10:31:29,613] - Components::addComponent[logger], uid=13419, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000011a4] [2024-10-06 10:31:29,630] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Debug X64. Built: 12:44:48 Oct  4 2024. AppID: 8001. UID: 13419. PID: 2700 ----
+  INFO root [0x000011a4] [2024-10-06 10:31:29,630] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [0x000011a4] [2024-10-06 10:31:29,630] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000011a4] [2024-10-06 10:31:29,630] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000011a4] [2024-10-06 10:31:29,842] - Script::install(): is successfully, Python=(3.7.3 (default, Oct  4 2024, 12:41:09) [MSC v.1941 64 bit (AMD64)])!
+  INFO root [0x000011a4] [2024-10-06 10:31:29,842] - Script::install(): KBExtra is successfully!
+  INFO root [0x000011a4] [2024-10-06 10:31:29,902] - TelnetServer server is running on port 50000
+  INFO root [0x000011a4] [2024-10-06 10:31:30,174] - ---- cellapp is running ----
+ DEBUG root [0x000011a4] [2024-10-06 10:31:30,174] - Components::process(): Request for the process of identity...
+  WARN root [0x000011a4] [2024-10-06 10:31:36,363] - Forwarding logs to logger[192.168.43.253:50834/0/0/0]...
+ ERROR root [0x000011a4] [2024-10-06 10:38:36,558] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=462014445006, lastReceivedTime=461920950746, inactivityExceptionPeriod=599500192)
+   OFF root [0x000011a4] [2024-10-06 10:38:36,574] - The following logs sent to logger failed:
+  WARN root [0x000011a4] [2024-10-06 10:38:36,574] - ==> [2024-10-06 10:38:36 570] TCPPacketReceiver::processPendingEvents(192.168.43.253:50834): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000011a4] [2024-10-06 10:38:36,574] - ==> [2024-10-06 10:38:36 571] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=462014445006, lastReceivedTime=461920950746, inactivityExceptionPeriod=599500192)
+  WARN root [0x000011a4] [2024-10-06 10:38:36,574] - TCPPacketReceiver::processPendingEvents(192.168.43.253:50835): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000011a4] [2024-10-06 10:38:36,574] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=462014617838, lastReceivedTime=461928069008, inactivityExceptionPeriod=599500192)
+  INFO root [0x000011a4] [2024-10-06 10:38:36,589] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x000011a4] [2024-10-06 10:38:36,589] - Shutdowner::onShutdown: shutting down
+  INFO root [0x000011a4] [2024-10-06 10:38:36,589] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x000011a4] [2024-10-06 10:38:36,589] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x000011a4] [2024-10-06 10:38:36,589] - Witness::destroyObjPool(): size 0.
+  INFO root [0x000011a4] [2024-10-06 10:38:36,623] - Script::uninstall(): is successfully!
+ DEBUG root [0x000011a4] [2024-10-06 10:38:36,623] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x000011a4] [2024-10-06 10:38:36,946] - ThreadPool::destroy(): waiting for thread(2)[0x208badbaa80,0x208badbc2e0,], try=1
+  INFO root [0x000029c8] [2024-10-06 11:49:37,731] - 
+  INFO root [0x000029c8] [2024-10-06 11:49:37,731] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000029c8] [2024-10-06 11:49:37,731] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [0x000029c8] [2024-10-06 11:49:37,731] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/server_assets1/;C:/tut/kbengine-2.5.12/server_assets1/scripts/;C:/tut/kbengine-2.5.12/server_assets1/res/
+  INFO root [0x000029c8] [2024-10-06 11:49:37,731] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [0x000029c8] [2024-10-06 11:49:37,744] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.43.253 ( 192.168.43.253:55827 )
+  INFO root [0x000029c8] [2024-10-06 11:49:37,745] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.43.253:55827, SOMAXCONN=511.
+  INFO root [0x000029c8] [2024-10-06 11:49:37,745] - server-configs:
+  INFO root [0x000029c8] [2024-10-06 11:49:37,745] - 	gameUpdateHertz : 10
+  INFO root [0x000029c8] [2024-10-06 11:49:37,745] - 	defaultViewRadius : 80
+  INFO root [0x000029c8] [2024-10-06 11:49:37,745] - 	defaultViewHysteresisArea : 5
+  INFO root [0x000029c8] [2024-10-06 11:49:37,745] - 	entryScriptFile : kbemain
+  INFO root [0x000029c8] [2024-10-06 11:49:37,745] - 	internalTcpAddr : 192.168.43.253:55827
+  INFO root [0x000029c8] [2024-10-06 11:49:37,745] - 	componentID : 8001
+  INFO root [0x000029c8] [2024-10-06 11:49:37,776] - Components::findLogger: found logger, addr:192.168.43.253:55816
+  INFO root [0x000029c8] [2024-10-06 11:49:37,777] - Components::addComponent: reset orderLog, uid=13419!
+  INFO root [0x000029c8] [2024-10-06 11:49:37,777] - Components::addComponent[logger], uid=13419, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000029c8] [2024-10-06 11:49:37,783] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Debug X64. Built: 12:44:48 Oct  4 2024. AppID: 8001. UID: 13419. PID: 1988 ----
+  INFO root [0x000029c8] [2024-10-06 11:49:37,783] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [0x000029c8] [2024-10-06 11:49:37,783] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000029c8] [2024-10-06 11:49:37,784] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000029c8] [2024-10-06 11:49:37,985] - Script::install(): is successfully, Python=(3.7.3 (default, Oct  4 2024, 12:41:09) [MSC v.1941 64 bit (AMD64)])!
+  INFO root [0x000029c8] [2024-10-06 11:49:37,985] - Script::install(): KBExtra is successfully!
+  INFO root [0x000029c8] [2024-10-06 11:49:38,041] - TelnetServer server is running on port 50000
+  INFO root [0x000029c8] [2024-10-06 11:49:38,310] - ---- cellapp is running ----
+ DEBUG root [0x000029c8] [2024-10-06 11:49:38,311] - Components::process(): Request for the process of identity...
+  WARN root [0x000029c8] [2024-10-06 11:49:44,503] - Forwarding logs to logger[192.168.43.253:55816/0/0/0]...
+ ERROR root [0x000029c8] [2024-10-06 11:50:31,322] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2792696480, lastReceivedTime=2533368817, inactivityExceptionPeriod=599500192)
+   OFF root [0x000029c8] [2024-10-06 11:50:31,325] - The following logs sent to logger failed:
+  WARN root [0x000029c8] [2024-10-06 11:50:31,327] - ==> [2024-10-06 11:50:31 321] TCPPacketReceiver::processPendingEvents(192.168.43.253:55816): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000029c8] [2024-10-06 11:50:31,327] - ==> [2024-10-06 11:50:31 322] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2792696480, lastReceivedTime=2533368817, inactivityExceptionPeriod=599500192)
+  WARN root [0x000029c8] [2024-10-06 11:50:31,337] - TCPPacketReceiver::processPendingEvents(192.168.43.253:55817): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000029c8] [2024-10-06 11:50:31,337] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=2792861322, lastReceivedTime=2541527134, inactivityExceptionPeriod=599500192)
+  INFO root [0x000029c8] [2024-10-06 11:50:31,341] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x000029c8] [2024-10-06 11:50:31,342] - Shutdowner::onShutdown: shutting down
+  INFO root [0x000029c8] [2024-10-06 11:50:31,342] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x000029c8] [2024-10-06 11:50:31,342] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x000029c8] [2024-10-06 11:50:31,342] - Witness::destroyObjPool(): size 0.
+  INFO root [0x000029c8] [2024-10-06 11:50:31,370] - Script::uninstall(): is successfully!
+ DEBUG root [0x000029c8] [2024-10-06 11:50:31,370] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x000029c8] [2024-10-06 11:50:31,681] - ThreadPool::destroy(): waiting for thread(2)[0x1d5ed1e8370,0x1d5ed1e89b0,], try=1
+  INFO root [0x00000480] [2024-10-06 11:52:49,929] - 
+  INFO root [0x00000480] [2024-10-06 11:52:49,930] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00000480] [2024-10-06 11:52:49,946] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [0x00000480] [2024-10-06 11:52:49,946] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [0x00000480] [2024-10-06 11:52:49,946] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [0x00000480] [2024-10-06 11:52:49,962] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.43.253 ( 192.168.43.253:49865 )
+  INFO root [0x00000480] [2024-10-06 11:52:49,963] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.43.253:49865, SOMAXCONN=511.
+  INFO root [0x00000480] [2024-10-06 11:52:49,965] - server-configs:
+  INFO root [0x00000480] [2024-10-06 11:52:49,965] - 	gameUpdateHertz : 10
+  INFO root [0x00000480] [2024-10-06 11:52:49,970] - 	defaultViewRadius : 80
+  INFO root [0x00000480] [2024-10-06 11:52:49,970] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00000480] [2024-10-06 11:52:49,970] - 	entryScriptFile : kbemain
+  INFO root [0x00000480] [2024-10-06 11:52:49,970] - 	internalTcpAddr : 192.168.43.253:49865
+  INFO root [0x00000480] [2024-10-06 11:52:49,970] - 	componentID : 8001
+  INFO root [0x00000480] [2024-10-06 11:52:50,077] - Components::findLogger: found logger, addr:192.168.43.253:49857
+  INFO root [0x00000480] [2024-10-06 11:52:50,077] - Components::addComponent: reset orderLog, uid=13419!
+  INFO root [0x00000480] [2024-10-06 11:52:50,078] - Components::addComponent[logger], uid=13419, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00000480] [2024-10-06 11:52:50,088] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Debug X64. Built: 12:44:48 Oct  4 2024. AppID: 8001. UID: 13419. PID: 1060 ----
+  INFO root [0x00000480] [2024-10-06 11:52:50,088] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [0x00000480] [2024-10-06 11:52:50,089] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00000480] [2024-10-06 11:52:50,089] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00000480] [2024-10-06 11:52:50,327] - Script::install(): is successfully, Python=(3.7.3 (default, Oct  4 2024, 12:41:09) [MSC v.1941 64 bit (AMD64)])!
+  INFO root [0x00000480] [2024-10-06 11:52:50,327] - Script::install(): KBExtra is successfully!
+  INFO root [0x00000480] [2024-10-06 11:52:50,398] - TelnetServer server is running on port 50000
+  INFO root [0x00000480] [2024-10-06 11:52:50,665] - ---- cellapp is running ----
+ DEBUG root [0x00000480] [2024-10-06 11:52:50,667] - Components::process(): Request for the process of identity...
+  WARN root [0x00000480] [2024-10-06 11:52:56,836] - Forwarding logs to logger[192.168.43.253:49857/0/0/0]...
+ ERROR root [0x00000480] [2024-10-06 11:53:13,554] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1132851248, lastReceivedTime=898130770, inactivityExceptionPeriod=599500064)
+   OFF root [0x00000480] [2024-10-06 11:53:13,555] - The following logs sent to logger failed:
+  WARN root [0x00000480] [2024-10-06 11:53:13,555] - ==> [2024-10-06 11:53:13 554] TCPPacketReceiver::processPendingEvents(192.168.43.253:49857): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00000480] [2024-10-06 11:53:13,556] - ==> [2024-10-06 11:53:13 555] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1132851248, lastReceivedTime=898130770, inactivityExceptionPeriod=599500064)
+  WARN root [0x00000480] [2024-10-06 11:53:13,583] - TCPPacketReceiver::processPendingEvents(192.168.43.253:49858): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00000480] [2024-10-06 11:53:13,585] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1133161494, lastReceivedTime=1070384190, inactivityExceptionPeriod=599500064)
+  INFO root [0x00000480] [2024-10-06 11:53:13,585] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00000480] [2024-10-06 11:53:13,587] - Shutdowner::onShutdown: shutting down
+  INFO root [0x00000480] [2024-10-06 11:53:13,588] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00000480] [2024-10-06 11:53:13,591] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00000480] [2024-10-06 11:53:13,592] - Witness::destroyObjPool(): size 0.
+  INFO root [0x00000480] [2024-10-06 11:53:13,619] - Script::uninstall(): is successfully!
+ DEBUG root [0x00000480] [2024-10-06 11:53:13,621] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00000480] [2024-10-06 11:53:13,933] - ThreadPool::destroy(): waiting for thread(2)[0x1b1fb585a40,0x1b1fb585ae0,], try=1
+  INFO root [0x00002db0] [2024-10-06 12:07:32,047] - 
+  INFO root [0x00002db0] [2024-10-06 12:07:32,048] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00002db0] [2024-10-06 12:07:32,049] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [0x00002db0] [2024-10-06 12:07:32,049] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [0x00002db0] [2024-10-06 12:07:32,049] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [0x00002db0] [2024-10-06 12:07:32,057] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.43.253 ( 192.168.43.253:50073 )
+  INFO root [0x00002db0] [2024-10-06 12:07:32,057] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.43.253:50073, SOMAXCONN=511.
+  INFO root [0x00002db0] [2024-10-06 12:07:32,057] - server-configs:
+  INFO root [0x00002db0] [2024-10-06 12:07:32,057] - 	gameUpdateHertz : 10
+  INFO root [0x00002db0] [2024-10-06 12:07:32,057] - 	defaultViewRadius : 80
+  INFO root [0x00002db0] [2024-10-06 12:07:32,057] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00002db0] [2024-10-06 12:07:32,057] - 	entryScriptFile : kbemain
+  INFO root [0x00002db0] [2024-10-06 12:07:32,057] - 	internalTcpAddr : 192.168.43.253:50073
+  INFO root [0x00002db0] [2024-10-06 12:07:32,057] - 	componentID : 8001
+  INFO root [0x00002db0] [2024-10-06 12:07:32,104] - Components::findLogger: found logger, addr:192.168.43.253:50062
+  INFO root [0x00002db0] [2024-10-06 12:07:32,104] - Components::addComponent: reset orderLog, uid=13419!
+  INFO root [0x00002db0] [2024-10-06 12:07:32,104] - Components::addComponent[logger], uid=13419, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00002db0] [2024-10-06 12:07:32,113] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Debug X64. Built: 12:44:48 Oct  4 2024. AppID: 8001. UID: 13419. PID: 5068 ----
+  INFO root [0x00002db0] [2024-10-06 12:07:32,113] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [0x00002db0] [2024-10-06 12:07:32,113] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00002db0] [2024-10-06 12:07:32,114] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00002db0] [2024-10-06 12:07:32,313] - Script::install(): is successfully, Python=(3.7.3 (default, Oct  4 2024, 12:41:09) [MSC v.1941 64 bit (AMD64)])!
+  INFO root [0x00002db0] [2024-10-06 12:07:32,313] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00002db0] [2024-10-06 12:07:32,376] - loaded entity-script:FirstEntity(2).
+ DEBUG root [0x00002db0] [2024-10-06 12:07:32,376] - loaded entity-script:FirstSpace(3).
+  INFO root [0x00002db0] [2024-10-06 12:07:32,376] - TelnetServer server is running on port 50000
+  INFO root [0x00002db0] [2024-10-06 12:07:32,670] - ---- cellapp is running ----
+ DEBUG root [0x00002db0] [2024-10-06 12:07:32,670] - Components::process(): Request for the process of identity...
+  WARN root [0x00002db0] [2024-10-06 12:07:38,841] - Forwarding logs to logger[192.168.43.253:50062/0/0/0]...
+ ERROR root [0x00002db0] [2024-10-06 12:09:56,322] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=11160524373, lastReceivedTime=10892732289, inactivityExceptionPeriod=599499745)
+   OFF root [0x00002db0] [2024-10-06 12:09:56,328] - The following logs sent to logger failed:
+  WARN root [0x00002db0] [2024-10-06 12:09:56,328] - ==> [2024-10-06 12:09:56 321] TCPPacketReceiver::processPendingEvents(192.168.43.253:50062): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002db0] [2024-10-06 12:09:56,328] - ==> [2024-10-06 12:09:56 322] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=11160524373, lastReceivedTime=10892732289, inactivityExceptionPeriod=599499745)
+  WARN root [0x00002db0] [2024-10-06 12:09:56,350] - TCPPacketReceiver::processPendingEvents(192.168.43.253:50063): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00002db0] [2024-10-06 12:09:56,351] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=11160821368, lastReceivedTime=10901567272, inactivityExceptionPeriod=599499745)
+  INFO root [0x00002db0] [2024-10-06 12:09:56,353] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00002db0] [2024-10-06 12:09:56,353] - Shutdowner::onShutdown: shutting down
+  INFO root [0x00002db0] [2024-10-06 12:09:56,354] - Spaces::destroySpace: 1.
+  INFO root [0x00002db0] [2024-10-06 12:09:56,354] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00002db0] [2024-10-06 12:09:56,354] - FirstSpace::~FirstSpace(): 1
+ DEBUG root [0x00002db0] [2024-10-06 12:09:56,356] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00002db0] [2024-10-06 12:09:56,356] - Witness::destroyObjPool(): size 0.
+  INFO root [0x00002db0] [2024-10-06 12:09:56,400] - Script::uninstall(): is successfully!
+ DEBUG root [0x00002db0] [2024-10-06 12:09:56,400] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00002db0] [2024-10-06 12:09:56,708] - ThreadPool::destroy(): waiting for thread(2)[0x1ec036b7800,0x1ec036b78a0,], try=1
+  INFO root [0x000024f0] [2024-10-06 12:11:45,025] - 
+  INFO root [0x000024f0] [2024-10-06 12:11:45,025] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x000024f0] [2024-10-06 12:11:45,027] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [0x000024f0] [2024-10-06 12:11:45,027] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [0x000024f0] [2024-10-06 12:11:45,027] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [0x000024f0] [2024-10-06 12:11:45,036] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.43.253 ( 192.168.43.253:50172 )
+  INFO root [0x000024f0] [2024-10-06 12:11:45,037] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.43.253:50172, SOMAXCONN=511.
+  INFO root [0x000024f0] [2024-10-06 12:11:45,037] - server-configs:
+  INFO root [0x000024f0] [2024-10-06 12:11:45,037] - 	gameUpdateHertz : 10
+  INFO root [0x000024f0] [2024-10-06 12:11:45,037] - 	defaultViewRadius : 80
+  INFO root [0x000024f0] [2024-10-06 12:11:45,037] - 	defaultViewHysteresisArea : 5
+  INFO root [0x000024f0] [2024-10-06 12:11:45,037] - 	entryScriptFile : kbemain
+  INFO root [0x000024f0] [2024-10-06 12:11:45,037] - 	internalTcpAddr : 192.168.43.253:50172
+  INFO root [0x000024f0] [2024-10-06 12:11:45,037] - 	componentID : 8001
+  INFO root [0x000024f0] [2024-10-06 12:11:45,054] - Components::findLogger: found logger, addr:192.168.43.253:50162
+  INFO root [0x000024f0] [2024-10-06 12:11:45,054] - Components::addComponent: reset orderLog, uid=13419!
+  INFO root [0x000024f0] [2024-10-06 12:11:45,054] - Components::addComponent[logger], uid=13419, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x000024f0] [2024-10-06 12:11:45,060] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Debug X64. Built: 12:44:48 Oct  4 2024. AppID: 8001. UID: 13419. PID: 3496 ----
+  INFO root [0x000024f0] [2024-10-06 12:11:45,062] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [0x000024f0] [2024-10-06 12:11:45,062] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x000024f0] [2024-10-06 12:11:45,062] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x000024f0] [2024-10-06 12:11:45,239] - Script::install(): is successfully, Python=(3.7.3 (default, Oct  4 2024, 12:41:09) [MSC v.1941 64 bit (AMD64)])!
+  INFO root [0x000024f0] [2024-10-06 12:11:45,239] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x000024f0] [2024-10-06 12:11:45,303] - loaded entity-script:FirstEntity(2).
+ DEBUG root [0x000024f0] [2024-10-06 12:11:45,303] - loaded entity-script:FirstSpace(3).
+  INFO root [0x000024f0] [2024-10-06 12:11:45,303] - TelnetServer server is running on port 50000
+  INFO root [0x000024f0] [2024-10-06 12:11:45,556] - ---- cellapp is running ----
+ DEBUG root [0x000024f0] [2024-10-06 12:11:45,561] - Components::process(): Request for the process of identity...
+  WARN root [0x000024f0] [2024-10-06 12:11:51,744] - Forwarding logs to logger[192.168.43.253:50162/0/0/0]...
+ ERROR root [0x000024f0] [2024-10-06 12:14:21,559] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=13813000306, lastReceivedTime=13724564828, inactivityExceptionPeriod=599500192)
+   OFF root [0x000024f0] [2024-10-06 12:14:21,559] - The following logs sent to logger failed:
+  WARN root [0x000024f0] [2024-10-06 12:14:21,559] - ==> [2024-10-06 12:14:21 567] TCPPacketReceiver::processPendingEvents(192.168.43.253:50162): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000024f0] [2024-10-06 12:14:21,559] - ==> [2024-10-06 12:14:21 570] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=13813000306, lastReceivedTime=13724564828, inactivityExceptionPeriod=599500192)
+  WARN root [0x000024f0] [2024-10-06 12:14:21,591] - TCPPacketReceiver::processPendingEvents(192.168.43.253:50163): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x000024f0] [2024-10-06 12:14:21,591] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=13813251073, lastReceivedTime=13732065780, inactivityExceptionPeriod=599500192)
+  INFO root [0x000024f0] [2024-10-06 12:14:21,591] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x000024f0] [2024-10-06 12:14:21,591] - Shutdowner::onShutdown: shutting down
+  INFO root [0x000024f0] [2024-10-06 12:14:21,591] - Spaces::destroySpace: 1.
+  INFO root [0x000024f0] [2024-10-06 12:14:21,591] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x000024f0] [2024-10-06 12:14:21,591] - FirstSpace::~FirstSpace(): 1
+ DEBUG root [0x000024f0] [2024-10-06 12:14:21,591] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x000024f0] [2024-10-06 12:14:21,591] - Witness::destroyObjPool(): size 0.
+  INFO root [0x000024f0] [2024-10-06 12:14:21,622] - Script::uninstall(): is successfully!
+ DEBUG root [0x000024f0] [2024-10-06 12:14:21,622] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x000024f0] [2024-10-06 12:14:21,938] - ThreadPool::destroy(): waiting for thread(2)[0x1e115339600,0x1e115338b60,], try=1
+  INFO root [0x00001344] [2024-10-06 14:20:10,912] - 
+  INFO root [0x00001344] [2024-10-06 14:20:10,923] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x00001344] [2024-10-06 14:20:10,929] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [0x00001344] [2024-10-06 14:20:10,929] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [0x00001344] [2024-10-06 14:20:10,929] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [0x00001344] [2024-10-06 14:20:10,952] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.43.253 ( 192.168.43.253:50330 )
+  INFO root [0x00001344] [2024-10-06 14:20:10,952] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.43.253:50330, SOMAXCONN=511.
+  INFO root [0x00001344] [2024-10-06 14:20:10,952] - server-configs:
+  INFO root [0x00001344] [2024-10-06 14:20:10,952] - 	gameUpdateHertz : 10
+  INFO root [0x00001344] [2024-10-06 14:20:10,952] - 	defaultViewRadius : 80
+  INFO root [0x00001344] [2024-10-06 14:20:10,952] - 	defaultViewHysteresisArea : 5
+  INFO root [0x00001344] [2024-10-06 14:20:10,952] - 	entryScriptFile : kbemain
+  INFO root [0x00001344] [2024-10-06 14:20:10,952] - 	internalTcpAddr : 192.168.43.253:50330
+  INFO root [0x00001344] [2024-10-06 14:20:10,952] - 	componentID : 8001
+  INFO root [0x00001344] [2024-10-06 14:20:11,013] - Components::findLogger: found logger, addr:192.168.43.253:50319
+  INFO root [0x00001344] [2024-10-06 14:20:11,013] - Components::addComponent: reset orderLog, uid=13419!
+  INFO root [0x00001344] [2024-10-06 14:20:11,013] - Components::addComponent[logger], uid=13419, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x00001344] [2024-10-06 14:20:11,029] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Debug X64. Built: 12:44:48 Oct  4 2024. AppID: 8001. UID: 13419. PID: 5432 ----
+  INFO root [0x00001344] [2024-10-06 14:20:11,029] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [0x00001344] [2024-10-06 14:20:11,029] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x00001344] [2024-10-06 14:20:11,029] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x00001344] [2024-10-06 14:20:11,261] - Script::install(): is successfully, Python=(3.7.3 (default, Oct  4 2024, 12:41:09) [MSC v.1941 64 bit (AMD64)])!
+  INFO root [0x00001344] [2024-10-06 14:20:11,261] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x00001344] [2024-10-06 14:20:11,485] - loaded entity-script:FirstEntity(2).
+ DEBUG root [0x00001344] [2024-10-06 14:20:11,485] - loaded entity-script:FirstSpace(3).
+  INFO root [0x00001344] [2024-10-06 14:20:11,485] - TelnetServer server is running on port 50000
+  INFO root [0x00001344] [2024-10-06 14:20:11,879] - ---- cellapp is running ----
+ DEBUG root [0x00001344] [2024-10-06 14:20:11,884] - Components::process(): Request for the process of identity...
+  WARN root [0x00001344] [2024-10-06 14:20:18,088] - Forwarding logs to logger[192.168.43.253:50319/0/0/0]...
+ ERROR root [0x00001344] [2024-10-06 14:20:32,487] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=89522395316, lastReceivedTime=89307659550, inactivityExceptionPeriod=599500320)
+   OFF root [0x00001344] [2024-10-06 14:20:32,503] - The following logs sent to logger failed:
+  WARN root [0x00001344] [2024-10-06 14:20:32,503] - ==> [2024-10-06 14:20:32 479] TCPPacketReceiver::processPendingEvents(192.168.43.253:50319): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00001344] [2024-10-06 14:20:32,503] - ==> [2024-10-06 14:20:32 495] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=89522395316, lastReceivedTime=89307659550, inactivityExceptionPeriod=599500320)
+  WARN root [0x00001344] [2024-10-06 14:20:32,524] - TCPPacketReceiver::processPendingEvents(192.168.43.253:50320): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x00001344] [2024-10-06 14:20:32,524] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=89522758610, lastReceivedTime=89497275728, inactivityExceptionPeriod=599500320)
+  INFO root [0x00001344] [2024-10-06 14:20:32,524] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x00001344] [2024-10-06 14:20:32,535] - Shutdowner::onShutdown: shutting down
+  INFO root [0x00001344] [2024-10-06 14:20:32,535] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x00001344] [2024-10-06 14:20:32,535] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x00001344] [2024-10-06 14:20:32,535] - Witness::destroyObjPool(): size 0.
+  INFO root [0x00001344] [2024-10-06 14:20:32,582] - Script::uninstall(): is successfully!
+ DEBUG root [0x00001344] [2024-10-06 14:20:32,582] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x00001344] [2024-10-06 14:20:32,886] - ThreadPool::destroy(): waiting for thread(2)[0x279d5cc6860,0x279d5cc62c0,], try=1
+  INFO root [0x0000042c] [2024-10-06 14:23:41,834] - 
+  INFO root [0x0000042c] [2024-10-06 14:23:41,834] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [0x0000042c] [2024-10-06 14:23:41,866] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [0x0000042c] [2024-10-06 14:23:41,866] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [0x0000042c] [2024-10-06 14:23:41,866] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [0x0000042c] [2024-10-06 14:23:41,868] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.43.253 ( 192.168.43.253:63265 )
+  INFO root [0x0000042c] [2024-10-06 14:23:41,868] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.43.253:63265, SOMAXCONN=511.
+  INFO root [0x0000042c] [2024-10-06 14:23:41,868] - server-configs:
+  INFO root [0x0000042c] [2024-10-06 14:23:41,868] - 	gameUpdateHertz : 10
+  INFO root [0x0000042c] [2024-10-06 14:23:41,868] - 	defaultViewRadius : 80
+  INFO root [0x0000042c] [2024-10-06 14:23:41,868] - 	defaultViewHysteresisArea : 5
+  INFO root [0x0000042c] [2024-10-06 14:23:41,868] - 	entryScriptFile : kbemain
+  INFO root [0x0000042c] [2024-10-06 14:23:41,868] - 	internalTcpAddr : 192.168.43.253:63265
+  INFO root [0x0000042c] [2024-10-06 14:23:41,868] - 	componentID : 8001
+  INFO root [0x0000042c] [2024-10-06 14:23:41,934] - Components::findLogger: found logger, addr:192.168.43.253:63257
+  INFO root [0x0000042c] [2024-10-06 14:23:41,934] - Components::addComponent: reset orderLog, uid=13419!
+  INFO root [0x0000042c] [2024-10-06 14:23:41,934] - Components::addComponent[logger], uid=13419, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [0x0000042c] [2024-10-06 14:23:41,934] - ---- cellapp Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 4478E9BD24C10143131E32BB1D739ABD. Config: Debug X64. Built: 12:44:48 Oct  4 2024. AppID: 8001. UID: 13419. PID: 1204 ----
+  INFO root [0x0000042c] [2024-10-06 14:23:41,934] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [0x0000042c] [2024-10-06 14:23:41,934] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [0x0000042c] [2024-10-06 14:23:41,934] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [0x0000042c] [2024-10-06 14:23:42,240] - Script::install(): is successfully, Python=(3.7.3 (default, Oct  4 2024, 12:41:09) [MSC v.1941 64 bit (AMD64)])!
+  INFO root [0x0000042c] [2024-10-06 14:23:42,240] - Script::install(): KBExtra is successfully!
+ DEBUG root [0x0000042c] [2024-10-06 14:23:42,353] - loaded entity-script:FirstEntity(2).
+ DEBUG root [0x0000042c] [2024-10-06 14:23:42,353] - loaded entity-script:FirstSpace(3).
+  INFO root [0x0000042c] [2024-10-06 14:23:42,353] - TelnetServer server is running on port 50000
+  INFO root [0x0000042c] [2024-10-06 14:23:42,692] - ---- cellapp is running ----
+ DEBUG root [0x0000042c] [2024-10-06 14:23:42,692] - Components::process(): Request for the process of identity...
+  WARN root [0x0000042c] [2024-10-06 14:23:48,892] - Forwarding logs to logger[192.168.43.253:63257/0/0/0]...
+ ERROR root [0x0000042c] [2024-10-06 14:24:01,763] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1826769470, lastReceivedTime=1628462754, inactivityExceptionPeriod=599500448)
+   OFF root [0x0000042c] [2024-10-06 14:24:01,763] - The following logs sent to logger failed:
+  WARN root [0x0000042c] [2024-10-06 14:24:01,763] - ==> [2024-10-06 14:24:01 769] TCPPacketReceiver::processPendingEvents(192.168.43.253:63257): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x0000042c] [2024-10-06 14:24:01,763] - ==> [2024-10-06 14:24:01 770] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1826769470, lastReceivedTime=1628462754, inactivityExceptionPeriod=599500448)
+  WARN root [0x0000042c] [2024-10-06 14:24:01,778] - TCPPacketReceiver::processPendingEvents(192.168.43.253:63258): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [0x0000042c] [2024-10-06 14:24:01,778] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1826905514, lastReceivedTime=1803503212, inactivityExceptionPeriod=599500448)
+  INFO root [0x0000042c] [2024-10-06 14:24:01,778] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [0x0000042c] [2024-10-06 14:24:01,778] - Shutdowner::onShutdown: shutting down
+  INFO root [0x0000042c] [2024-10-06 14:24:01,778] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [0x0000042c] [2024-10-06 14:24:01,778] - EntityRef::destroyObjPool(): size 0.
+ DEBUG root [0x0000042c] [2024-10-06 14:24:01,778] - Witness::destroyObjPool(): size 0.
+  INFO root [0x0000042c] [2024-10-06 14:24:01,810] - Script::uninstall(): is successfully!
+ DEBUG root [0x0000042c] [2024-10-06 14:24:01,810] - ThreadPool::destroy(): starting size 2.
+  WARN root [0x0000042c] [2024-10-06 14:24:02,127] - ThreadPool::destroy(): waiting for thread(2)[0x1c6e8bb8390,0x1c6e8bb72b0,], try=1

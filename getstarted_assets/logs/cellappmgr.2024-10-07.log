@@ -1,0 +1,595 @@
+  INFO root [2024-10-07 08:02:25,547] - 
+  INFO root [2024-10-07 08:02:25,547] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2024-10-07 08:02:25,566] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [2024-10-07 08:02:25,566] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [2024-10-07 08:02:25,566] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2024-10-07 08:02:25,579] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.43.253 ( 192.168.43.253:53009 )
+  INFO root [2024-10-07 08:02:25,579] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.43.253:53009, SOMAXCONN=511.
+  INFO root [2024-10-07 08:02:25,579] - server-configs:
+  INFO root [2024-10-07 08:02:25,579] - 	internalTcpAddr : 192.168.43.253:53009
+  INFO root [2024-10-07 08:02:25,579] - 	componentID : 6000
+  INFO root [2024-10-07 08:02:25,637] - Components::findLogger: found logger, addr:192.168.43.253:53006
+  INFO root [2024-10-07 08:02:25,637] - Components::addComponent: reset orderLog, uid=13419!
+  INFO root [2024-10-07 08:02:25,637] - Components::addComponent[logger], uid=13419, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2024-10-07 08:02:25,637] - ---- cellappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 5BD150375E8109EF4863A845CB8F8699. Config: Debug X64. Built: 12:41:56 Oct  4 2024. AppID: 6000. UID: 13419. PID: 4784 ----
+  INFO root [2024-10-07 08:02:25,637] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [2024-10-07 08:02:25,637] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2024-10-07 08:02:25,654] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2024-10-07 08:02:25,972] - ---- cellappmgr is running ----
+ DEBUG root [2024-10-07 08:02:25,972] - Components::process(): Request for the process of identity...
+  WARN root [2024-10-07 08:02:32,275] - Forwarding logs to logger[192.168.43.253:53006/0/0/0]...
+ ERROR root [2024-10-07 08:13:55,429] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=10545945999, lastReceivedTime=10530699481, inactivityExceptionPeriod=599500064)
+   OFF root [2024-10-07 08:13:55,445] - The following logs sent to logger failed:
+  WARN root [2024-10-07 08:13:55,445] - ==> [2024-10-07 08:13:55 443] TCPPacketReceiver::processPendingEvents(192.168.43.253:53006): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2024-10-07 08:13:55,445] - ==> [2024-10-07 08:13:55 444] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=10545945999, lastReceivedTime=10530699481, inactivityExceptionPeriod=599500064)
+  WARN root [2024-10-07 08:13:55,461] - TCPPacketReceiver::processPendingEvents(192.168.43.253:53015): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2024-10-07 08:13:55,461] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=10546246146, lastReceivedTime=10259332541, inactivityExceptionPeriod=599500064)
+  INFO root [2024-10-07 08:13:55,461] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2024-10-07 08:13:55,461] - Shutdowner::onShutdown: shutting down
+  INFO root [2024-10-07 08:13:55,461] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2024-10-07 08:13:55,476] - ThreadPool::destroy(): starting size 2.
+  INFO root [2024-10-07 08:14:07,938] - 
+  INFO root [2024-10-07 08:14:07,938] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2024-10-07 08:14:07,938] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [2024-10-07 08:14:07,938] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [2024-10-07 08:14:07,938] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2024-10-07 08:14:07,954] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.43.253 ( 192.168.43.253:53168 )
+  INFO root [2024-10-07 08:14:07,954] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.43.253:53168, SOMAXCONN=511.
+  INFO root [2024-10-07 08:14:07,954] - server-configs:
+  INFO root [2024-10-07 08:14:07,954] - 	internalTcpAddr : 192.168.43.253:53168
+  INFO root [2024-10-07 08:14:07,954] - 	componentID : 6000
+  INFO root [2024-10-07 08:14:08,003] - Components::findLogger: found logger, addr:192.168.43.253:53162
+  INFO root [2024-10-07 08:14:08,003] - Components::addComponent: reset orderLog, uid=13419!
+  INFO root [2024-10-07 08:14:08,003] - Components::addComponent[logger], uid=13419, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2024-10-07 08:14:08,003] - ---- cellappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 5BD150375E8109EF4863A845CB8F8699. Config: Debug X64. Built: 12:41:56 Oct  4 2024. AppID: 6000. UID: 13419. PID: 11984 ----
+  INFO root [2024-10-07 08:14:08,003] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [2024-10-07 08:14:08,003] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2024-10-07 08:14:08,003] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2024-10-07 08:14:08,342] - ---- cellappmgr is running ----
+ DEBUG root [2024-10-07 08:14:08,342] - Components::process(): Request for the process of identity...
+  WARN root [2024-10-07 08:14:14,528] - Forwarding logs to logger[192.168.43.253:53162/0/0/0]...
+ ERROR root [2024-10-07 08:14:47,486] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=11066452639, lastReceivedTime=10954670002, inactivityExceptionPeriod=599499873)
+   OFF root [2024-10-07 08:14:47,486] - The following logs sent to logger failed:
+  WARN root [2024-10-07 08:14:47,486] - ==> [2024-10-07 08:14:47 490] TCPPacketReceiver::processPendingEvents(192.168.43.253:53162): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2024-10-07 08:14:47,486] - ==> [2024-10-07 08:14:47 494] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=11066452639, lastReceivedTime=10954670002, inactivityExceptionPeriod=599499873)
+  WARN root [2024-10-07 08:14:47,502] - TCPPacketReceiver::processPendingEvents(192.168.43.253:53164): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2024-10-07 08:14:47,502] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=11066612694, lastReceivedTime=10963642208, inactivityExceptionPeriod=599499873)
+  INFO root [2024-10-07 08:14:47,502] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2024-10-07 08:14:47,502] - Shutdowner::onShutdown: shutting down
+  INFO root [2024-10-07 08:14:47,502] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2024-10-07 08:14:47,502] - ThreadPool::destroy(): starting size 2.
+  INFO root [2024-10-07 08:46:53,257] - 
+  INFO root [2024-10-07 08:46:53,257] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2024-10-07 08:46:53,257] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [2024-10-07 08:46:53,257] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [2024-10-07 08:46:53,257] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2024-10-07 08:46:53,279] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.43.253 ( 192.168.43.253:53414 )
+  INFO root [2024-10-07 08:46:53,279] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.43.253:53414, SOMAXCONN=511.
+  INFO root [2024-10-07 08:46:53,279] - server-configs:
+  INFO root [2024-10-07 08:46:53,279] - 	internalTcpAddr : 192.168.43.253:53414
+  INFO root [2024-10-07 08:46:53,279] - 	componentID : 6000
+  INFO root [2024-10-07 08:46:53,312] - Components::findLogger: found logger, addr:192.168.43.253:53407
+  INFO root [2024-10-07 08:46:53,312] - Components::addComponent: reset orderLog, uid=13419!
+  INFO root [2024-10-07 08:46:53,312] - Components::addComponent[logger], uid=13419, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2024-10-07 08:46:53,312] - ---- cellappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 5BD150375E8109EF4863A845CB8F8699. Config: Debug X64. Built: 12:41:56 Oct  4 2024. AppID: 6000. UID: 13419. PID: 5784 ----
+  INFO root [2024-10-07 08:46:53,312] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [2024-10-07 08:46:53,312] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2024-10-07 08:46:53,328] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2024-10-07 08:46:53,683] - ---- cellappmgr is running ----
+ DEBUG root [2024-10-07 08:46:53,683] - Components::process(): Request for the process of identity...
+  WARN root [2024-10-07 08:46:59,928] - Forwarding logs to logger[192.168.43.253:53407/0/0/0]...
+ ERROR root [2024-10-07 08:56:29,911] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=36090694411, lastReceivedTime=36017135892, inactivityExceptionPeriod=599500320)
+ ERROR root [2024-10-07 08:56:30,694] - 192.168.43.253:53407: TCPPacketSender::processSend(internal): Exception occurred: REASON_CLIENT_DISCONNECTED , errno: 10054, 192.168.43.253:53407/0/0/0
+  INFO root [2024-10-07 08:56:31,759] - EventDispatcher()::~EventDispatcher: Num timers = 1
+  INFO root [2024-10-07 09:24:05,427] - 
+  INFO root [2024-10-07 09:24:05,427] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2024-10-07 09:24:05,427] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [2024-10-07 09:24:05,427] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [2024-10-07 09:24:05,427] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2024-10-07 09:24:05,443] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.43.253 ( 192.168.43.253:53547 )
+  INFO root [2024-10-07 09:24:05,443] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.43.253:53547, SOMAXCONN=511.
+  INFO root [2024-10-07 09:24:05,443] - server-configs:
+  INFO root [2024-10-07 09:24:05,443] - 	internalTcpAddr : 192.168.43.253:53547
+  INFO root [2024-10-07 09:24:05,443] - 	componentID : 6000
+  INFO root [2024-10-07 09:24:05,458] - Components::findLogger: found logger, addr:192.168.43.253:53539
+  INFO root [2024-10-07 09:24:05,458] - Components::addComponent: reset orderLog, uid=13419!
+  INFO root [2024-10-07 09:24:05,458] - Components::addComponent[logger], uid=13419, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2024-10-07 09:24:05,458] - ---- cellappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 5BD150375E8109EF4863A845CB8F8699. Config: Debug X64. Built: 12:41:56 Oct  4 2024. AppID: 6000. UID: 13419. PID: 11396 ----
+  INFO root [2024-10-07 09:24:05,458] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [2024-10-07 09:24:05,458] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2024-10-07 09:24:05,458] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2024-10-07 09:24:05,850] - ---- cellappmgr is running ----
+ DEBUG root [2024-10-07 09:24:05,850] - Components::process(): Request for the process of identity...
+  WARN root [2024-10-07 09:24:12,034] - Forwarding logs to logger[192.168.43.253:53539/0/0/0]...
+ ERROR root [2024-10-07 09:30:33,737] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=56528926989, lastReceivedTime=56237080370, inactivityExceptionPeriod=599500000)
+  INFO root [2024-10-07 09:32:38,689] - 
+  INFO root [2024-10-07 09:32:38,689] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2024-10-07 09:32:38,689] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [2024-10-07 09:32:38,699] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [2024-10-07 09:32:38,699] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2024-10-07 09:32:38,708] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.150.131 ( 192.168.150.131:53624 )
+  INFO root [2024-10-07 09:32:38,708] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.150.131:53624, SOMAXCONN=511.
+  INFO root [2024-10-07 09:32:38,708] - server-configs:
+  INFO root [2024-10-07 09:32:38,708] - 	internalTcpAddr : 192.168.150.131:53624
+  INFO root [2024-10-07 09:32:38,708] - 	componentID : 6000
+  INFO root [2024-10-07 09:32:38,767] - Components::findLogger: found logger, addr:192.168.150.131:53617
+  INFO root [2024-10-07 09:32:38,767] - Components::addComponent: reset orderLog, uid=13419!
+  INFO root [2024-10-07 09:32:38,767] - Components::addComponent[logger], uid=13419, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2024-10-07 09:32:38,767] - ---- cellappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 5BD150375E8109EF4863A845CB8F8699. Config: Debug X64. Built: 12:41:56 Oct  4 2024. AppID: 6000. UID: 13419. PID: 11928 ----
+  INFO root [2024-10-07 09:32:38,767] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [2024-10-07 09:32:38,767] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2024-10-07 09:32:38,767] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2024-10-07 09:32:39,145] - ---- cellappmgr is running ----
+ DEBUG root [2024-10-07 09:32:39,165] - Components::process(): Request for the process of identity...
+  WARN root [2024-10-07 09:32:45,345] - Forwarding logs to logger[192.168.150.131:53617/0/0/0]...
+ ERROR root [2024-10-07 09:35:27,660] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=59468246929, lastReceivedTime=59262132300, inactivityExceptionPeriod=599499617)
+   OFF root [2024-10-07 09:35:27,676] - The following logs sent to logger failed:
+  WARN root [2024-10-07 09:35:27,676] - ==> [2024-10-07 09:35:27 672] TCPPacketReceiver::processPendingEvents(192.168.150.131:53617): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2024-10-07 09:35:27,676] - ==> [2024-10-07 09:35:27 673] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=59468246929, lastReceivedTime=59262132300, inactivityExceptionPeriod=599499617)
+  WARN root [2024-10-07 09:35:27,676] - TCPPacketReceiver::processPendingEvents(192.168.150.131:53618): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2024-10-07 09:35:27,691] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=59468512154, lastReceivedTime=59270911628, inactivityExceptionPeriod=599499617)
+  INFO root [2024-10-07 09:35:27,691] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2024-10-07 09:35:27,691] - Shutdowner::onShutdown: shutting down
+  INFO root [2024-10-07 09:35:27,691] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2024-10-07 09:35:27,691] - ThreadPool::destroy(): starting size 2.
+  INFO root [2024-10-07 11:19:14,537] - 
+  INFO root [2024-10-07 11:19:14,537] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2024-10-07 11:19:14,552] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [2024-10-07 11:19:14,552] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [2024-10-07 11:19:14,552] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2024-10-07 11:19:14,569] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.150.131 ( 192.168.150.131:53692 )
+  INFO root [2024-10-07 11:19:14,569] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.150.131:53692, SOMAXCONN=511.
+  INFO root [2024-10-07 11:19:14,569] - server-configs:
+  INFO root [2024-10-07 11:19:14,569] - 	internalTcpAddr : 192.168.150.131:53692
+  INFO root [2024-10-07 11:19:14,569] - 	componentID : 6000
+  INFO root [2024-10-07 11:19:14,664] - Components::findLogger: found logger, addr:192.168.150.131:53686
+  INFO root [2024-10-07 11:19:14,664] - Components::addComponent: reset orderLog, uid=13419!
+  INFO root [2024-10-07 11:19:14,664] - Components::addComponent[logger], uid=13419, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2024-10-07 11:19:14,670] - ---- cellappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 5BD150375E8109EF4863A845CB8F8699. Config: Debug X64. Built: 12:41:56 Oct  4 2024. AppID: 6000. UID: 13419. PID: 10016 ----
+  INFO root [2024-10-07 11:19:14,670] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [2024-10-07 11:19:14,670] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2024-10-07 11:19:14,670] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2024-10-07 11:19:15,089] - ---- cellappmgr is running ----
+ DEBUG root [2024-10-07 11:19:15,104] - Components::process(): Request for the process of identity...
+  WARN root [2024-10-07 11:19:21,333] - Forwarding logs to logger[192.168.150.131:53686/0/0/0]...
+ ERROR root [2024-10-07 11:33:49,897] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=76466295217, lastReceivedTime=76401665787, inactivityExceptionPeriod=599500000)
+  INFO root [2024-10-07 11:34:03,496] - 
+  INFO root [2024-10-07 11:34:03,496] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2024-10-07 11:34:03,496] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [2024-10-07 11:34:03,496] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [2024-10-07 11:34:03,496] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2024-10-07 11:34:03,512] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.150.131 ( 192.168.150.131:53776 )
+  INFO root [2024-10-07 11:34:03,512] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.150.131:53776, SOMAXCONN=511.
+  INFO root [2024-10-07 11:34:03,527] - server-configs:
+  INFO root [2024-10-07 11:34:03,527] - 	internalTcpAddr : 192.168.150.131:53776
+  INFO root [2024-10-07 11:34:03,527] - 	componentID : 6000
+  INFO root [2024-10-07 11:34:03,591] - Components::findLogger: found logger, addr:192.168.150.131:53767
+  INFO root [2024-10-07 11:34:03,591] - Components::addComponent: reset orderLog, uid=13419!
+  INFO root [2024-10-07 11:34:03,591] - Components::addComponent[logger], uid=13419, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2024-10-07 11:34:03,607] - ---- cellappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 5BD150375E8109EF4863A845CB8F8699. Config: Debug X64. Built: 12:41:56 Oct  4 2024. AppID: 6000. UID: 13419. PID: 8548 ----
+  INFO root [2024-10-07 11:34:03,607] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [2024-10-07 11:34:03,607] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2024-10-07 11:34:03,607] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2024-10-07 11:34:04,009] - ---- cellappmgr is running ----
+ DEBUG root [2024-10-07 11:34:04,009] - Components::process(): Request for the process of identity...
+  INFO root [2024-10-07 11:34:06,459] - 
+  INFO root [2024-10-07 11:34:06,459] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2024-10-07 11:34:06,459] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [2024-10-07 11:34:06,459] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [2024-10-07 11:34:06,459] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2024-10-07 11:34:06,469] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.150.131 ( 192.168.150.131:53788 )
+  INFO root [2024-10-07 11:34:06,469] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.150.131:53788, SOMAXCONN=511.
+  INFO root [2024-10-07 11:34:06,469] - server-configs:
+  INFO root [2024-10-07 11:34:06,469] - 	internalTcpAddr : 192.168.150.131:53788
+  INFO root [2024-10-07 11:34:06,469] - 	componentID : 6000
+  INFO root [2024-10-07 11:34:06,565] - Components::findLogger: found logger, addr:192.168.150.131:53767
+  INFO root [2024-10-07 11:34:06,565] - Components::addComponent: reset orderLog, uid=13419!
+  INFO root [2024-10-07 11:34:06,565] - Components::addComponent[logger], uid=13419, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2024-10-07 11:34:06,565] - ---- cellappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 5BD150375E8109EF4863A845CB8F8699. Config: Debug X64. Built: 12:41:56 Oct  4 2024. AppID: 6000. UID: 13419. PID: 4608 ----
+  INFO root [2024-10-07 11:34:06,565] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [2024-10-07 11:34:06,565] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2024-10-07 11:34:06,565] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2024-10-07 11:34:06,950] - ---- cellappmgr is running ----
+ DEBUG root [2024-10-07 11:34:06,950] - Components::process(): Request for the process of identity...
+ ERROR root [2024-10-07 11:34:07,130] - Components::process: found cellappmgr, addr:192.168.150.131:53776
+ ERROR root [2024-10-07 11:34:07,130] - ServerApp::onIdentityillegal: The current process and cellappmgr(componentID=6000 ->conflicted???, pid=8548, addr=192.168.150.131) conflict, the process will exit!
+Can modify the components-CID and UID to avoid conflict.
+  INFO root [2024-10-07 11:34:07,130] - Shutdowner::onShutdownBegin: shutting down(period=1, tickPeriod=1)
+  WARN root [2024-10-07 11:34:07,130] - Forwarding logs to logger[192.168.150.131:53767/0/0/0]...
+  WARN root [2024-10-07 11:34:10,319] - Forwarding logs to logger[192.168.150.131:53767/0/0/0]...
+  INFO root [2024-10-07 11:34:11,035] - EventDispatcher()::~EventDispatcher: Num timers = 2
+ ERROR root [2024-10-07 11:41:20,494] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=80972375332, lastReceivedTime=80777172087, inactivityExceptionPeriod=599500320)
+   OFF root [2024-10-07 11:41:20,510] - The following logs sent to logger failed:
+  WARN root [2024-10-07 11:41:20,510] - ==> [2024-10-07 11:41:20 505] TCPPacketReceiver::processPendingEvents(192.168.150.131:53767): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2024-10-07 11:41:20,510] - ==> [2024-10-07 11:41:20 505] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=80972375332, lastReceivedTime=80777172087, inactivityExceptionPeriod=599500320)
+  WARN root [2024-10-07 11:41:20,557] - TCPPacketReceiver::processPendingEvents(192.168.150.131:53778): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2024-10-07 11:41:20,573] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=80973052434, lastReceivedTime=80812840991, inactivityExceptionPeriod=599500320)
+  INFO root [2024-10-07 11:41:20,573] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2024-10-07 11:41:20,573] - Shutdowner::onShutdown: shutting down
+  INFO root [2024-10-07 11:41:20,573] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2024-10-07 11:41:20,573] - ThreadPool::destroy(): starting size 2.
+  INFO root [2024-10-07 11:41:32,135] - 
+  INFO root [2024-10-07 11:41:32,135] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2024-10-07 11:41:32,135] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [2024-10-07 11:41:32,135] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [2024-10-07 11:41:32,135] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2024-10-07 11:41:32,151] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.150.131 ( 192.168.150.131:53888 )
+  INFO root [2024-10-07 11:41:32,151] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.150.131:53888, SOMAXCONN=511.
+  INFO root [2024-10-07 11:41:32,151] - server-configs:
+  INFO root [2024-10-07 11:41:32,151] - 	internalTcpAddr : 192.168.150.131:53888
+  INFO root [2024-10-07 11:41:32,151] - 	componentID : 6000
+  INFO root [2024-10-07 11:41:32,265] - Components::findLogger: found logger, addr:192.168.150.131:53880
+  INFO root [2024-10-07 11:41:32,265] - Components::addComponent: reset orderLog, uid=13419!
+  INFO root [2024-10-07 11:41:32,265] - Components::addComponent[logger], uid=13419, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2024-10-07 11:41:32,265] - ---- cellappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 5BD150375E8109EF4863A845CB8F8699. Config: Debug X64. Built: 12:41:56 Oct  4 2024. AppID: 6000. UID: 13419. PID: 9260 ----
+  INFO root [2024-10-07 11:41:32,282] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [2024-10-07 11:41:32,282] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2024-10-07 11:41:32,282] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2024-10-07 11:41:32,673] - ---- cellappmgr is running ----
+ DEBUG root [2024-10-07 11:41:32,673] - Components::process(): Request for the process of identity...
+  WARN root [2024-10-07 11:41:38,882] - Forwarding logs to logger[192.168.150.131:53880/0/0/0]...
+ ERROR root [2024-10-07 11:46:55,439] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=84321813233, lastReceivedTime=84079384453, inactivityExceptionPeriod=599500448)
+  INFO root [2024-10-07 12:07:31,427] - 
+  INFO root [2024-10-07 12:07:31,427] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2024-10-07 12:07:31,427] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [2024-10-07 12:07:31,427] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [2024-10-07 12:07:31,427] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2024-10-07 12:07:31,446] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.150.131 ( 192.168.150.131:54001 )
+  INFO root [2024-10-07 12:07:31,446] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.150.131:54001, SOMAXCONN=511.
+  INFO root [2024-10-07 12:07:31,446] - server-configs:
+  INFO root [2024-10-07 12:07:31,446] - 	internalTcpAddr : 192.168.150.131:54001
+  INFO root [2024-10-07 12:07:31,446] - 	componentID : 6000
+  INFO root [2024-10-07 12:07:31,461] - Components::findLogger: found logger, addr:192.168.150.131:53995
+  INFO root [2024-10-07 12:07:31,461] - Components::addComponent: reset orderLog, uid=13419!
+  INFO root [2024-10-07 12:07:31,461] - Components::addComponent[logger], uid=13419, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2024-10-07 12:07:31,461] - ---- cellappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 5BD150375E8109EF4863A845CB8F8699. Config: Debug X64. Built: 12:41:56 Oct  4 2024. AppID: 6000. UID: 13419. PID: 5676 ----
+  INFO root [2024-10-07 12:07:31,461] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [2024-10-07 12:07:31,461] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2024-10-07 12:07:31,461] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2024-10-07 12:07:31,949] - ---- cellappmgr is running ----
+ DEBUG root [2024-10-07 12:07:31,949] - Components::process(): Request for the process of identity...
+  WARN root [2024-10-07 12:07:38,208] - Forwarding logs to logger[192.168.150.131:53995/0/0/0]...
+ ERROR root [2024-10-07 12:15:18,438] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=101351805263, lastReceivedTime=101171693017, inactivityExceptionPeriod=599499745)
+  INFO root [2024-10-07 12:16:35,236] - 
+  INFO root [2024-10-07 12:16:35,236] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2024-10-07 12:16:35,262] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [2024-10-07 12:16:35,262] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [2024-10-07 12:16:35,262] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2024-10-07 12:16:35,279] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.150.131 ( 192.168.150.131:54076 )
+  INFO root [2024-10-07 12:16:35,279] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.150.131:54076, SOMAXCONN=511.
+  INFO root [2024-10-07 12:16:35,279] - server-configs:
+  INFO root [2024-10-07 12:16:35,279] - 	internalTcpAddr : 192.168.150.131:54076
+  INFO root [2024-10-07 12:16:35,279] - 	componentID : 6000
+  INFO root [2024-10-07 12:16:35,381] - Components::findLogger: found logger, addr:192.168.150.131:54069
+  INFO root [2024-10-07 12:16:35,381] - Components::addComponent: reset orderLog, uid=13419!
+  INFO root [2024-10-07 12:16:35,381] - Components::addComponent[logger], uid=13419, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2024-10-07 12:16:35,381] - ---- cellappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 5BD150375E8109EF4863A845CB8F8699. Config: Debug X64. Built: 12:41:56 Oct  4 2024. AppID: 6000. UID: 13419. PID: 12128 ----
+  INFO root [2024-10-07 12:16:35,381] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [2024-10-07 12:16:35,381] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2024-10-07 12:16:35,381] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2024-10-07 12:16:35,751] - ---- cellappmgr is running ----
+ DEBUG root [2024-10-07 12:16:35,751] - Components::process(): Request for the process of identity...
+  WARN root [2024-10-07 12:16:42,028] - Forwarding logs to logger[192.168.150.131:54069/0/0/0]...
+ ERROR root [2024-10-07 12:17:29,346] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=102661022210, lastReceivedTime=102403204203, inactivityExceptionPeriod=599500000)
+   OFF root [2024-10-07 12:17:29,362] - The following logs sent to logger failed:
+  WARN root [2024-10-07 12:17:29,362] - ==> [2024-10-07 12:17:29 358] TCPPacketReceiver::processPendingEvents(192.168.150.131:54069): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2024-10-07 12:17:29,362] - ==> [2024-10-07 12:17:29 360] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=102661022210, lastReceivedTime=102403204203, inactivityExceptionPeriod=599500000)
+  WARN root [2024-10-07 12:17:29,362] - TCPPacketReceiver::processPendingEvents(192.168.150.131:54070): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2024-10-07 12:17:29,362] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=102661128143, lastReceivedTime=102411276106, inactivityExceptionPeriod=599500000)
+  INFO root [2024-10-07 12:17:29,362] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2024-10-07 12:17:29,378] - Shutdowner::onShutdown: shutting down
+  INFO root [2024-10-07 12:17:29,378] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2024-10-07 12:17:29,378] - ThreadPool::destroy(): starting size 2.
+  INFO root [2024-10-07 13:44:58,282] - 
+  INFO root [2024-10-07 13:44:58,282] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2024-10-07 13:44:58,282] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [2024-10-07 13:44:58,298] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [2024-10-07 13:44:58,298] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2024-10-07 13:44:58,313] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.150.131 ( 192.168.150.131:54197 )
+  INFO root [2024-10-07 13:44:58,313] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.150.131:54197, SOMAXCONN=511.
+  INFO root [2024-10-07 13:44:58,313] - server-configs:
+  INFO root [2024-10-07 13:44:58,313] - 	internalTcpAddr : 192.168.150.131:54197
+  INFO root [2024-10-07 13:44:58,313] - 	componentID : 6000
+  INFO root [2024-10-07 13:44:58,362] - Components::findLogger: found logger, addr:192.168.150.131:54190
+  INFO root [2024-10-07 13:44:58,362] - Components::addComponent: reset orderLog, uid=13419!
+  INFO root [2024-10-07 13:44:58,362] - Components::addComponent[logger], uid=13419, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2024-10-07 13:44:58,362] - ---- cellappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 5BD150375E8109EF4863A845CB8F8699. Config: Debug X64. Built: 12:41:56 Oct  4 2024. AppID: 6000. UID: 13419. PID: 1952 ----
+  INFO root [2024-10-07 13:44:58,362] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [2024-10-07 13:44:58,362] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2024-10-07 13:44:58,362] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2024-10-07 13:44:58,748] - ---- cellappmgr is running ----
+ DEBUG root [2024-10-07 13:44:58,748] - Components::process(): Request for the process of identity...
+  WARN root [2024-10-07 13:45:04,986] - Forwarding logs to logger[192.168.150.131:54190/0/0/0]...
+ ERROR root [2024-10-07 13:49:53,716] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=112680640269, lastReceivedTime=112408509051, inactivityExceptionPeriod=599499617)
+   OFF root [2024-10-07 13:49:53,716] - The following logs sent to logger failed:
+  WARN root [2024-10-07 13:49:53,716] - ==> [2024-10-07 13:49:53 721] TCPPacketReceiver::processPendingEvents(192.168.150.131:54190): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2024-10-07 13:49:53,716] - ==> [2024-10-07 13:49:53 728] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=112680640269, lastReceivedTime=112408509051, inactivityExceptionPeriod=599499617)
+  WARN root [2024-10-07 13:49:53,731] - TCPPacketReceiver::processPendingEvents(192.168.150.131:54191): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2024-10-07 13:49:53,731] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=112680753136, lastReceivedTime=112415881488, inactivityExceptionPeriod=599499617)
+  INFO root [2024-10-07 13:49:53,731] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2024-10-07 13:49:53,731] - Shutdowner::onShutdown: shutting down
+  INFO root [2024-10-07 13:49:53,731] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2024-10-07 13:49:53,731] - ThreadPool::destroy(): starting size 2.
+  INFO root [2024-10-07 13:54:26,218] - 
+  INFO root [2024-10-07 13:54:26,218] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2024-10-07 13:54:26,218] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [2024-10-07 13:54:26,218] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [2024-10-07 13:54:26,218] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2024-10-07 13:54:26,234] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.150.131 ( 192.168.150.131:54265 )
+  INFO root [2024-10-07 13:54:26,234] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.150.131:54265, SOMAXCONN=511.
+  INFO root [2024-10-07 13:54:26,234] - server-configs:
+  INFO root [2024-10-07 13:54:26,234] - 	internalTcpAddr : 192.168.150.131:54265
+  INFO root [2024-10-07 13:54:26,234] - 	componentID : 6000
+  INFO root [2024-10-07 13:54:26,303] - Components::findLogger: found logger, addr:192.168.150.131:54259
+  INFO root [2024-10-07 13:54:26,303] - Components::addComponent: reset orderLog, uid=13419!
+  INFO root [2024-10-07 13:54:26,303] - Components::addComponent[logger], uid=13419, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2024-10-07 13:54:26,316] - ---- cellappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 5BD150375E8109EF4863A845CB8F8699. Config: Debug X64. Built: 12:41:56 Oct  4 2024. AppID: 6000. UID: 13419. PID: 1872 ----
+  INFO root [2024-10-07 13:54:26,316] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [2024-10-07 13:54:26,316] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2024-10-07 13:54:26,316] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2024-10-07 13:54:26,733] - ---- cellappmgr is running ----
+ DEBUG root [2024-10-07 13:54:26,749] - Components::process(): Request for the process of identity...
+  WARN root [2024-10-07 13:54:30,462] - BundleBroadcast::BundleBroadcast: Cannot bind to port 20397, errorno=10048
+  INFO root [2024-10-07 13:54:30,642] - 
+  INFO root [2024-10-07 13:54:30,642] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2024-10-07 13:54:30,642] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [2024-10-07 13:54:30,642] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [2024-10-07 13:54:30,642] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2024-10-07 13:54:30,658] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.150.131 ( 192.168.150.131:54282 )
+  INFO root [2024-10-07 13:54:30,658] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.150.131:54282, SOMAXCONN=511.
+  INFO root [2024-10-07 13:54:30,658] - server-configs:
+  INFO root [2024-10-07 13:54:30,658] - 	internalTcpAddr : 192.168.150.131:54282
+  INFO root [2024-10-07 13:54:30,658] - 	componentID : 6000
+  INFO root [2024-10-07 13:54:30,673] - Components::findLogger: found logger, addr:192.168.150.131:54259
+  INFO root [2024-10-07 13:54:30,673] - Components::addComponent: reset orderLog, uid=13419!
+  INFO root [2024-10-07 13:54:30,673] - Components::addComponent[logger], uid=13419, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2024-10-07 13:54:30,673] - ---- cellappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 5BD150375E8109EF4863A845CB8F8699. Config: Debug X64. Built: 12:41:56 Oct  4 2024. AppID: 6000. UID: 13419. PID: 12832 ----
+  INFO root [2024-10-07 13:54:30,673] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [2024-10-07 13:54:30,688] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2024-10-07 13:54:30,688] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2024-10-07 13:54:31,083] - ---- cellappmgr is running ----
+ DEBUG root [2024-10-07 13:54:31,083] - Components::process(): Request for the process of identity...
+ ERROR root [2024-10-07 13:54:31,326] - Components::process: found cellappmgr, addr:192.168.150.131:54265
+ ERROR root [2024-10-07 13:54:31,326] - ServerApp::onIdentityillegal: The current process and cellappmgr(componentID=6000 ->conflicted???, pid=1872, addr=192.168.150.131) conflict, the process will exit!
+Can modify the components-CID and UID to avoid conflict.
+  INFO root [2024-10-07 13:54:31,342] - Shutdowner::onShutdownBegin: shutting down(period=1, tickPeriod=1)
+  WARN root [2024-10-07 13:54:31,342] - Forwarding logs to logger[192.168.150.131:54259/0/0/0]...
+  WARN root [2024-10-07 13:54:33,565] - Forwarding logs to logger[192.168.150.131:54259/0/0/0]...
+  INFO root [2024-10-07 13:54:35,260] - EventDispatcher()::~EventDispatcher: Num timers = 2
+ ERROR root [2024-10-07 14:08:10,612] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=123649565301, lastReceivedTime=123491697347, inactivityExceptionPeriod=599499169)
+   OFF root [2024-10-07 14:08:10,612] - The following logs sent to logger failed:
+  WARN root [2024-10-07 14:08:10,612] - ==> [2024-10-07 14:08:10 593] TCPPacketReceiver::processPendingEvents(192.168.150.131:54259): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2024-10-07 14:08:10,612] - ==> [2024-10-07 14:08:10 621] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=123649565301, lastReceivedTime=123491697347, inactivityExceptionPeriod=599499169)
+  WARN root [2024-10-07 14:08:10,706] - TCPPacketReceiver::processPendingEvents(192.168.150.131:54274): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2024-10-07 14:08:10,706] - Components::removeComponentByChannel: dbmgr : 4000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=123650542648, lastReceivedTime=123535438322, inactivityExceptionPeriod=599499169)
+  INFO root [2024-10-07 14:08:10,722] - Shutdowner::onShutdownBegin: shutting down(period=0, tickPeriod=1)
+  INFO root [2024-10-07 14:08:10,722] - Shutdowner::onShutdown: shutting down
+  INFO root [2024-10-07 14:08:10,722] - Shutdowner::onShutdownEnd: shutting down
+ DEBUG root [2024-10-07 14:08:10,722] - ThreadPool::destroy(): starting size 2.
+  WARN root [2024-10-07 14:08:11,034] - ThreadPool::destroy(): waiting for thread(2)[0x14a634994b0,0x14a634979d0,], try=1
+  INFO root [2024-10-07 16:49:47,877] - 
+  INFO root [2024-10-07 16:49:47,877] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2024-10-07 16:49:47,893] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [2024-10-07 16:49:47,893] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [2024-10-07 16:49:47,893] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2024-10-07 16:49:47,910] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.150.131 ( 192.168.150.131:54666 )
+  INFO root [2024-10-07 16:49:47,910] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.150.131:54666, SOMAXCONN=511.
+  INFO root [2024-10-07 16:49:47,910] - server-configs:
+  INFO root [2024-10-07 16:49:47,910] - 	internalTcpAddr : 192.168.150.131:54666
+  INFO root [2024-10-07 16:49:47,910] - 	componentID : 6000
+  INFO root [2024-10-07 16:49:47,928] - Components::findLogger: found logger, addr:192.168.150.131:54662
+  INFO root [2024-10-07 16:49:47,928] - Components::addComponent: reset orderLog, uid=13419!
+  INFO root [2024-10-07 16:49:47,928] - Components::addComponent[logger], uid=13419, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2024-10-07 16:49:47,944] - ---- cellappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 5BD150375E8109EF4863A845CB8F8699. Config: Debug X64. Built: 12:41:56 Oct  4 2024. AppID: 6000. UID: 13419. PID: 9876 ----
+  INFO root [2024-10-07 16:49:47,944] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [2024-10-07 16:49:47,944] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2024-10-07 16:49:47,944] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2024-10-07 16:49:48,410] - ---- cellappmgr is running ----
+ DEBUG root [2024-10-07 16:49:48,410] - Components::process(): Request for the process of identity...
+  WARN root [2024-10-07 16:49:54,658] - Forwarding logs to logger[192.168.150.131:54662/0/0/0]...
+  INFO root [2024-10-07 16:51:28,846] - 
+  INFO root [2024-10-07 16:51:28,846] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2024-10-07 16:51:28,846] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [2024-10-07 16:51:28,846] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [2024-10-07 16:51:28,846] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2024-10-07 16:51:28,863] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.150.131 ( 192.168.150.131:54688 )
+  INFO root [2024-10-07 16:51:28,863] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.150.131:54688, SOMAXCONN=511.
+  INFO root [2024-10-07 16:51:28,863] - server-configs:
+  INFO root [2024-10-07 16:51:28,863] - 	internalTcpAddr : 192.168.150.131:54688
+  INFO root [2024-10-07 16:51:28,863] - 	componentID : 6000
+  INFO root [2024-10-07 16:51:28,899] - Components::findLogger: found logger, addr:192.168.150.131:54683
+  INFO root [2024-10-07 16:51:28,899] - Components::addComponent: reset orderLog, uid=13419!
+  INFO root [2024-10-07 16:51:28,899] - Components::addComponent[logger], uid=13419, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2024-10-07 16:51:28,909] - ---- cellappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 5BD150375E8109EF4863A845CB8F8699. Config: Debug X64. Built: 12:41:56 Oct  4 2024. AppID: 6000. UID: 13419. PID: 12048 ----
+  INFO root [2024-10-07 16:51:28,909] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [2024-10-07 16:51:28,909] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2024-10-07 16:51:28,915] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2024-10-07 16:51:29,371] - ---- cellappmgr is running ----
+ DEBUG root [2024-10-07 16:51:29,371] - Components::process(): Request for the process of identity...
+  WARN root [2024-10-07 16:51:35,658] - Forwarding logs to logger[192.168.150.131:54683/0/0/0]...
+ ERROR root [2024-10-07 16:52:34,870] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=222292333134, lastReceivedTime=222212912451, inactivityExceptionPeriod=599500000)
+   OFF root [2024-10-07 16:52:34,870] - The following logs sent to logger failed:
+  WARN root [2024-10-07 16:52:34,870] - ==> [2024-10-07 16:52:34 872] TCPPacketReceiver::processPendingEvents(192.168.150.131:54683): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2024-10-07 16:52:34,870] - ==> [2024-10-07 16:52:34 874] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=222292333134, lastReceivedTime=222212912451, inactivityExceptionPeriod=599500000)
+  INFO root [2024-10-07 16:54:21,609] - 
+  INFO root [2024-10-07 16:54:21,609] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2024-10-07 16:54:21,609] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [2024-10-07 16:54:21,609] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [2024-10-07 16:54:21,609] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2024-10-07 16:54:21,628] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.150.131 ( 192.168.150.131:49738 )
+  INFO root [2024-10-07 16:54:21,628] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.150.131:49738, SOMAXCONN=511.
+  INFO root [2024-10-07 16:54:21,628] - server-configs:
+  INFO root [2024-10-07 16:54:21,628] - 	internalTcpAddr : 192.168.150.131:49738
+  INFO root [2024-10-07 16:54:21,628] - 	componentID : 6000
+  INFO root [2024-10-07 16:54:21,659] - Components::findLogger: found logger, addr:192.168.150.131:49734
+  INFO root [2024-10-07 16:54:21,659] - Components::addComponent: reset orderLog, uid=13419!
+  INFO root [2024-10-07 16:54:21,659] - Components::addComponent[logger], uid=13419, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2024-10-07 16:54:21,666] - ---- cellappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 5BD150375E8109EF4863A845CB8F8699. Config: Debug X64. Built: 12:41:56 Oct  4 2024. AppID: 6000. UID: 13419. PID: 10924 ----
+  INFO root [2024-10-07 16:54:21,667] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [2024-10-07 16:54:21,667] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2024-10-07 16:54:21,667] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2024-10-07 16:54:22,105] - ---- cellappmgr is running ----
+ DEBUG root [2024-10-07 16:54:22,107] - Components::process(): Request for the process of identity...
+  WARN root [2024-10-07 16:54:28,389] - Forwarding logs to logger[192.168.150.131:49734/0/0/0]...
+ ERROR root [2024-10-07 16:55:21,555] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1114696941, lastReceivedTime=1093620530, inactivityExceptionPeriod=599500000)
+   OFF root [2024-10-07 16:55:21,559] - The following logs sent to logger failed:
+  WARN root [2024-10-07 16:55:21,560] - ==> [2024-10-07 16:55:21 555] TCPPacketReceiver::processPendingEvents(192.168.150.131:49734): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2024-10-07 16:55:21,560] - ==> [2024-10-07 16:55:21 556] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=1114696941, lastReceivedTime=1093620530, inactivityExceptionPeriod=599500000)
+  INFO root [2024-10-07 16:58:53,185] - 
+  INFO root [2024-10-07 16:58:53,185] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2024-10-07 16:58:53,185] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [2024-10-07 16:58:53,185] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [2024-10-07 16:58:53,185] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2024-10-07 16:58:53,217] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.150.131 ( 192.168.150.131:49826 )
+  INFO root [2024-10-07 16:58:53,217] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.150.131:49826, SOMAXCONN=511.
+  INFO root [2024-10-07 16:58:53,217] - server-configs:
+  INFO root [2024-10-07 16:58:53,217] - 	internalTcpAddr : 192.168.150.131:49826
+  INFO root [2024-10-07 16:58:53,217] - 	componentID : 6000
+  INFO root [2024-10-07 16:58:53,259] - Components::findLogger: found logger, addr:192.168.150.131:49821
+  INFO root [2024-10-07 16:58:53,259] - Components::addComponent: reset orderLog, uid=13419!
+  INFO root [2024-10-07 16:58:53,259] - Components::addComponent[logger], uid=13419, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2024-10-07 16:58:53,259] - ---- cellappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 5BD150375E8109EF4863A845CB8F8699. Config: Debug X64. Built: 12:41:56 Oct  4 2024. AppID: 6000. UID: 13419. PID: 3032 ----
+  INFO root [2024-10-07 16:58:53,274] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [2024-10-07 16:58:53,274] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2024-10-07 16:58:53,274] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2024-10-07 16:58:53,697] - ---- cellappmgr is running ----
+ DEBUG root [2024-10-07 16:58:53,697] - Components::process(): Request for the process of identity...
+  WARN root [2024-10-07 16:58:59,943] - Forwarding logs to logger[192.168.150.131:49821/0/0/0]...
+  INFO root [2024-10-07 16:59:36,914] - 
+  INFO root [2024-10-07 16:59:36,928] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2024-10-07 16:59:36,930] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [2024-10-07 16:59:36,930] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [2024-10-07 16:59:36,930] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2024-10-07 16:59:36,930] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.150.131 ( 192.168.150.131:49841 )
+  INFO root [2024-10-07 16:59:36,930] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.150.131:49841, SOMAXCONN=511.
+  INFO root [2024-10-07 16:59:36,930] - server-configs:
+  INFO root [2024-10-07 16:59:36,930] - 	internalTcpAddr : 192.168.150.131:49841
+  INFO root [2024-10-07 16:59:36,930] - 	componentID : 6000
+  INFO root [2024-10-07 16:59:37,027] - Components::findLogger: found logger, addr:192.168.150.131:49836
+  INFO root [2024-10-07 16:59:37,027] - Components::addComponent: reset orderLog, uid=13419!
+  INFO root [2024-10-07 16:59:37,027] - Components::addComponent[logger], uid=13419, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2024-10-07 16:59:37,027] - ---- cellappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 5BD150375E8109EF4863A845CB8F8699. Config: Debug X64. Built: 12:41:56 Oct  4 2024. AppID: 6000. UID: 13419. PID: 11776 ----
+  INFO root [2024-10-07 16:59:37,027] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [2024-10-07 16:59:37,027] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2024-10-07 16:59:37,027] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2024-10-07 16:59:37,412] - ---- cellappmgr is running ----
+ DEBUG root [2024-10-07 16:59:37,427] - Components::process(): Request for the process of identity...
+  WARN root [2024-10-07 16:59:43,682] - Forwarding logs to logger[192.168.150.131:49836/0/0/0]...
+ ERROR root [2024-10-07 16:59:54,311] - Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=3842281745, lastReceivedTime=3669461772, inactivityExceptionPeriod=599500448)
+   OFF root [2024-10-07 16:59:54,311] - The following logs sent to logger failed:
+  WARN root [2024-10-07 16:59:54,311] - ==> [2024-10-07 16:59:54 313] TCPPacketReceiver::processPendingEvents(192.168.150.131:49836): Throwing REASON_GENERAL_NETWORK - WSAECONNRESET
+ ERROR root [2024-10-07 16:59:54,311] - ==> [2024-10-07 16:59:54 315] Components::removeComponentByChannel: logger : 2000, Abnormal exit(reason=TCPPacketReceiver::processRecv(): error=10054
+)! Channel(timestamp=3842281745, lastReceivedTime=3669461772, inactivityExceptionPeriod=599500448)
+  INFO root [2024-10-07 17:01:50,373] - 
+  INFO root [2024-10-07 17:01:50,379] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2024-10-07 17:01:50,389] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [2024-10-07 17:01:50,389] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [2024-10-07 17:01:50,389] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2024-10-07 17:01:50,405] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.150.131 ( 192.168.150.131:50202 )
+  INFO root [2024-10-07 17:01:50,405] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.150.131:50202, SOMAXCONN=511.
+  INFO root [2024-10-07 17:01:50,405] - server-configs:
+  INFO root [2024-10-07 17:01:50,405] - 	internalTcpAddr : 192.168.150.131:50202
+  INFO root [2024-10-07 17:01:50,405] - 	componentID : 6000
+  INFO root [2024-10-07 17:01:50,483] - Components::findLogger: found logger, addr:192.168.150.131:50197
+  INFO root [2024-10-07 17:01:50,483] - Components::addComponent: reset orderLog, uid=13419!
+  INFO root [2024-10-07 17:01:50,483] - Components::addComponent[logger], uid=13419, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2024-10-07 17:01:50,499] - ---- cellappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 5BD150375E8109EF4863A845CB8F8699. Config: Debug X64. Built: 12:41:56 Oct  4 2024. AppID: 6000. UID: 13419. PID: 7700 ----
+  INFO root [2024-10-07 17:01:50,499] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [2024-10-07 17:01:50,499] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2024-10-07 17:01:50,499] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2024-10-07 17:01:50,860] - ---- cellappmgr is running ----
+ DEBUG root [2024-10-07 17:01:50,876] - Components::process(): Request for the process of identity...
+  WARN root [2024-10-07 17:01:57,116] - Forwarding logs to logger[192.168.150.131:50197/0/0/0]...
+  INFO root [2024-10-07 17:25:36,516] - 
+  INFO root [2024-10-07 17:25:36,534] - -----------------------------------------------------------------------------------------
+
+
+  INFO root [2024-10-07 17:25:36,534] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+  INFO root [2024-10-07 17:25:36,534] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/getstarted_assets/;C:/tut/kbengine-2.5.12/getstarted_assets/scripts/;C:/tut/kbengine-2.5.12/getstarted_assets/res/
+  INFO root [2024-10-07 17:25:36,534] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+  INFO root [2024-10-07 17:25:36,547] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.150.131 ( 192.168.150.131:49747 )
+  INFO root [2024-10-07 17:25:36,547] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.150.131:49747, SOMAXCONN=511.
+  INFO root [2024-10-07 17:25:36,547] - server-configs:
+  INFO root [2024-10-07 17:25:36,547] - 	internalTcpAddr : 192.168.150.131:49747
+  INFO root [2024-10-07 17:25:36,547] - 	componentID : 6000
+  INFO root [2024-10-07 17:25:36,550] - Components::findLogger: found logger, addr:192.168.150.131:49742
+  INFO root [2024-10-07 17:25:36,550] - Components::addComponent: reset orderLog, uid=13419!
+  INFO root [2024-10-07 17:25:36,550] - Components::addComponent[logger], uid=13419, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+  INFO root [2024-10-07 17:25:36,566] - ---- cellappmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: 5BD150375E8109EF4863A845CB8F8699. Config: Debug X64. Built: 12:41:56 Oct  4 2024. AppID: 6000. UID: 13419. PID: 8444 ----
+  INFO root [2024-10-07 17:25:36,566] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+  INFO root [2024-10-07 17:25:36,566] - ThreadPool::createThreadPool: creating  threadpool...
+  INFO root [2024-10-07 17:25:36,566] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+  INFO root [2024-10-07 17:25:36,878] - ---- cellappmgr is running ----
+ DEBUG root [2024-10-07 17:25:36,878] - Components::process(): Request for the process of identity...
+  WARN root [2024-10-07 17:25:43,061] - Forwarding logs to logger[192.168.150.131:49742/0/0/0]...
