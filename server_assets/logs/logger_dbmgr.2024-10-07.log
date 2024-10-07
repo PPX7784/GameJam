@@ -1,0 +1,93 @@
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:28 664] - -----------------------------------------------------------------------------------------
+
+
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:28 665] - Resmgr::initialize: KBE_ROOT=C:/tut/kbengine-2.5.12/
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:28 666] - Resmgr::initialize: KBE_RES_PATH=C:/tut/kbengine-2.5.12/kbe/res/;C:/tut/kbengine-2.5.12/server_assets/;C:/tut/kbengine-2.5.12/server_assets/scripts/;C:/tut/kbengine-2.5.12/server_assets/res/
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:28 666] - Resmgr::initialize: KBE_BIN_PATH=C:/tut/kbengine-2.5.12/kbe/bin/server/
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:28 682] - NetworkInterface::initialize(INTERNAL-TCP): bound to all interfaces with default route interface on 192.168.150.131 ( 192.168.150.131:49894 )
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:28 682] - NetworkInterface::initialize(INTERNAL-TCP): address 192.168.150.131:49894, SOMAXCONN=511.
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:28 682] - server-configs:
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:28 683] - 	internalTcpAddr : 192.168.150.131:49894
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:28 683] - 	componentID : 4000
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:28 767] - Components::findLogger: found logger, addr:192.168.150.131:49893
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:28 767] - Components::addComponent: reset orderLog, uid=13419!
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:28 767] - Components::addComponent[logger], uid=13419, componentID=2000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:28 775] - ---- dbmgr Version: 2.5.10. ScriptVersion: 0.1.0. Pythoncore: 3.7.3. Protocol: CEEA1830B25FC811C6B0172173A5FCD0. Config: Debug X64. Built: 12:42:43 Oct  4 2024. AppID: 4000. UID: 13419. PID: 1248 ----
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:28 775] - Server 22414: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz with 4193144kB RAM
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:28 775] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:28 776] - ThreadPool::createThreadPool: successfully(2), newThreadCount=1, normalMaxThreadCount=2, maxThreadCount=8
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:29 084] - Script::install(): is successfully, Python=(3.7.3 (default, Oct  4 2024, 12:41:09) [MSC v.1941 64 bit (AMD64)])!
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:29 084] - Script::install(): KBExtra is successfully!
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:29 220] - Dbmgr::initializeEnd: digest(363BB7D9C7C9010E5779213C13D38542)
+  S_INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:29 222] - onDBMgrReady: bootstrapGroupIndex=0, bootstrapGlobalIndex=0
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:29 222] - TelnetServer server is running on port 32000
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:29 223] - Dbmgr::initInterfacesHandler: interfaces addr(127.0.0.1:30099), accountType:(interfaces), chargeType:(interfaces).
+ WARNING      dbmgr-1 13419 4000  [2024-10-07 17:54:29 489] - DBUtil::initialize: db(default) password is not encrypted!
+please use password(rsa):
+4CE30CB6156CC1AF80942BC911F3A08324742DB6A726E165C15198EBB1DC659381BD87AB142D3F5F37578EA460B860EBE0F6055C4A34B8EBBF055DC51A7D6CAB311B8B54E71A9F9922F4828F0F1D5AB8178E6B6BB2DD5C91084EB3C3D6433157BCD7C2A33B5D9250F73D28E4A805D5BE543D15F051034E96E7699C3D50DC696C
+   DEBUG      dbmgr-1 13419 4000  [2024-10-07 17:54:29 493] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 13419 4000  [2024-10-07 17:54:31 534] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:31 534] - DBUtil::createInterface[0x3018f7e308]: interface=default, dbtype=mysql, ip=localhost, port=3306, currdatabase=kbe, username=kbe, connected=yes.
+
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:31 539] - ThreadPool::createThreadPool: creating  threadpool...
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:31 540] - ThreadPool::createThreadPool: successfully(5), newThreadCount=5, normalMaxThreadCount=5, maxThreadCount=5
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:31 658] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 13419 4000  [2024-10-07 17:54:33 660] - DBInterfaceMysql::dropEntityTableFromDB: tbl_FirstEntity.
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:33 664] - DBInterfaceMysql::query: successfully!
+   DEBUG      dbmgr-1 13419 4000  [2024-10-07 17:54:33 664] - DBInterfaceMysql::dropEntityTableFromDB: tbl_FirstSpace.
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:33 670] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 13419 4000  [2024-10-07 17:54:33 671] - C:\tut\kbengine-2.5.12\kbe\src\server\dbmgr\dbmgr.cpp:306: Profile scriptCall took 4.45 seconds
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:33 994] - ---- dbmgr is running ----
+   DEBUG      dbmgr-1 13419 4000  [2024-10-07 17:54:33 996] - Components::process(): Request for the process of identity...
+   DEBUG      dbmgr-1 13419 4000  [2024-10-07 17:54:31 541] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 13419 4000  [2024-10-07 17:54:31 541] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 13419 4000  [2024-10-07 17:54:31 542] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 13419 4000  [2024-10-07 17:54:31 542] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 13419 4000  [2024-10-07 17:54:31 543] - DBInterfaceMysql::attach: connect: localhost:3306 starting...
+   DEBUG      dbmgr-1 13419 4000  [2024-10-07 17:54:33 587] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 13419 4000  [2024-10-07 17:54:33 587] - DBThread::onStart(): 0x1f01c7fefe0!
+   DEBUG      dbmgr-1 13419 4000  [2024-10-07 17:54:33 589] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 13419 4000  [2024-10-07 17:54:33 589] - DBThread::onStart(): 0x1f01c7ff0b0!
+   DEBUG      dbmgr-1 13419 4000  [2024-10-07 17:54:33 589] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 13419 4000  [2024-10-07 17:54:33 589] - DBThread::onStart(): 0x1f01c7fe070!
+   DEBUG      dbmgr-1 13419 4000  [2024-10-07 17:54:33 590] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 13419 4000  [2024-10-07 17:54:33 590] - DBThread::onStart(): 0x1f01c7fe2e0!
+   DEBUG      dbmgr-1 13419 4000  [2024-10-07 17:54:33 590] - DBInterfaceMysql::attach: successfully! addr: localhost:3306
+   DEBUG      dbmgr-1 13419 4000  [2024-10-07 17:54:33 590] - DBThread::onStart(): 0x1f01c7feca0!
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:33 622] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:33 622] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:33 623] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 13419 4000  [2024-10-07 17:54:33 624] - DBTask::process(): delay 1.93 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(show index from tbl_Account)
+ WARNING      dbmgr-1 13419 4000  [2024-10-07 17:54:33 625] - DBTask::process(): delay 1.93 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(CREATE TABLE IF NOT EXISTS kbe_accountinfos (`accountName` varchar(128) not null, PRIMARY KEY idKey (`accountName`),`password` varchar(255) not null,`bindata` blob,`email` varchar(191) not null, UNIQUE KEY `email` (`email`),`entityDBID` bigint(20) unsigned not null DEFAULT 0, UNIQUE KEY `entityDBID` (`entityDBID`),`flags` int unsigned not null DEFAULT 0,`deadline` bigint(20) not null DEFAULT 0,`regtime` bigint(20) not null DEFAULT 0,`lasttime` bigint(20) not null DEFAULT 0,`numlogin` int unsigned not null DEFAULT 0)ENGINE=InnoDB)
+ WARNING      dbmgr-1 13419 4000  [2024-10-07 17:54:33 628] - DBTask::process(): delay 1.93 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(insert into kbe_serverlog (heartbeatTime, isShareDB, serverGroupID) values(1728294873,0,13419) ON DUPLICATE KEY UPDATE heartbeatTime=1728294873,isShareDB=0)
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:33 628] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:33 629] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:33 629] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 13419 4000  [2024-10-07 17:54:33 629] - DBTask::process(): delay 1.93 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(delete from kbe_email_verification where logtime<1728291273 and type=3)
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:33 633] - DBInterfaceMysql::query: successfully!
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:33 635] - DBInterfaceMysql::query: successfully!
+ WARNING      dbmgr-1 13419 4000  [2024-10-07 17:54:33 637] - DBTask::process(): delay 1.93 seconds, try adjusting the kbengine[_defs].xml(numConnections) and MySQL(my.cnf->max_connections or innodb_flush_log_at_trx_commit)!
+sql:(select distinct(serverGroupID) from kbe_entitylog)
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:40 196] - ServerApp::onRegisterNewApp: uid:13419, username:22414, componentType:interfaces, componentID:3000, globalorderID=-1, grouporderID=-1, intaddr:192.168.150.131, intport:30099, extaddr:nonsupport, extport:0,  from 127.0.0.1:30099/0/0/0.
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:40 196] - Components::addComponent: reset orderLog, uid=13419!
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:40 196] - Components::addComponent[interfaces], uid=13419, componentID=3000, globalorderid=1, grouporderid=1, totalcount=1
+ WARNING      dbmgr-1 13419 4000  [2024-10-07 17:54:40 199] - TCPPacketReceiver::processPendingEvents(192.168.150.131:49927): Throwing REASON_GENERAL_NETWORK - WSAECONNABORTED
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:41 145] - ServerApp::onRegisterNewApp: uid:13419, username:22414, componentType:baseappmgr, componentID:5000, globalorderID=-1, grouporderID=-1, intaddr:192.168.150.131, intport:49896, extaddr:nonsupport, extport:0,  from 192.168.150.131:49929/0/0/0.
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:41 145] - Components::addComponent: reset orderLog, uid=13419!
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:41 145] - Components::addComponent[baseappmgr], uid=13419, componentID=5000, globalorderid=1, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:41 227] - Components::process(): Found all the components!
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:41 593] - ServerApp::onRegisterNewApp: uid:13419, username:22414, componentType:cellappmgr, componentID:6000, globalorderID=-1, grouporderID=-1, intaddr:192.168.150.131, intport:49900, extaddr:nonsupport, extport:0,  from 192.168.150.131:49931/0/0/0.
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:41 593] - Components::addComponent[cellappmgr], uid=13419, componentID=6000, globalorderid=2, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:42 936] - ServerApp::onRegisterNewApp: uid:13419, username:22414, componentType:loginapp, componentID:9000, globalorderID=-1, grouporderID=-1, intaddr:192.168.150.131, intport:49906, extaddr:192.168.150.131, extport:20013,  from 192.168.150.131:49934/0/0/0.
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:42 936] - Components::addComponent[loginapp], uid=13419, componentID=9000, globalorderid=3, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:44 816] - ServerApp::onRegisterNewApp: uid:13419, username:22414, componentType:baseapp, componentID:7001, globalorderID=-1, grouporderID=-1, intaddr:192.168.150.131, intport:49902, extaddr:192.168.150.131, extport:20015,  from 192.168.150.131:49936/0/0/0.
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:44 816] - Components::addComponent[baseapp], uid=13419, componentID=7001, globalorderid=4, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:44 896] - ServerApp::onRegisterNewApp: uid:13419, username:22414, componentType:cellapp, componentID:8001, globalorderID=-1, grouporderID=-1, intaddr:192.168.150.131, intport:49904, extaddr:nonsupport, extport:0,  from 192.168.150.131:49937/0/0/0.
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:44 896] - Components::addComponent[cellapp], uid=13419, componentID=8001, globalorderid=5, grouporderid=1, totalcount=1
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:47 908] - IDServer::allocRange: 1-2001.
+    INFO      dbmgr-1 13419 4000  [2024-10-07 17:54:47 908] - IDServer::allocRange: 2001-4001.
+   DEBUG      dbmgr-1 13419 4000  [2024-10-07 17:54:47 908] - SyncAppDatasHandler::~SyncAppDatasHandler()
